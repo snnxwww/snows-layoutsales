@@ -1,0 +1,613 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    font-family: 'cormorant garamond';
+    border-radius: 0px !important;
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+html {
+    scroll-timeline: --page-scroll block;
+}
+
+body {
+    background: #aaa;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+input, .button, select, textarea {
+    background: #fff !important;
+    color: #000 !important;
+    transition: 0.4s;
+}
+input:hover, .button:hover, select:hover, textarea:hover {
+    transform: rotate(1deg) translateY(1px);
+    filter: drop-shadow(1px 1px 4px #cdc1bc)
+}
+
+a {
+    color: #000 !important;
+    display: inline-block;
+    transition: 0.4s;
+}
+a:hover {
+    transform: rotate(0.5deg) translateX(2px) !important;
+}
+
+.particle {
+
+}
+
+
+@keyframes animation {
+    0% {
+    }
+
+    100% {
+    }
+}
+
+
+.pagedoll {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 99;
+    width: 400px;
+    max-width: 50%;
+    pointer-events: none;
+}
+
+.topbar {
+    position: fixed;
+    width: 90%;
+    max-width: 1200px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    background: #bbb;
+    color: #000;
+}
+.topbar a {
+    color: #000 !important;
+    transition: 0.4s
+}
+.topbar a:hover {
+    display: inline-block;
+    transform: rotate(-1deg) translateY(-2px) translateX(1px);
+}
+.navbar {
+    position: fixed;
+    width: 90%;
+    max-width: 1200px;
+    left: 50%;
+    z-index: 2;
+    top: 84px; 
+    transform: translate(-50%, -50%); 
+    animation: stickToTopbar linear both;
+    animation-timeline: --page-scroll;
+    animation-range: 0px 70px; 
+    background: #fff;
+}
+.navbar a {
+    color: #000 !important;
+    font-size: 16.5px !important;
+    transition: 0.4s
+}
+.navbar a:not(:has(img[src*='logo-full-2.png'])):hover {
+    background: none !important;
+    filter: drop-shadow(1px 1px 3px #fff);
+    box-shadow: 0px 0px 4px #b3c7cb !important;
+    transform: rotate(-1deg) translateY(-1px) translateX(1px);
+}
+@keyframes stickToTopbar {
+  to {
+    top: 59px; 
+  }
+}
+.main {
+    width: 89.99999%;
+    max-width: 1200px;
+    padding-top: 50px;
+    position: relative;
+    background: #ccc;
+}
+.col-md-9 {
+    margin-top: -1px;
+    background: #ddd;
+}
+
+@media (max-width: 768px) {
+    .topbar {
+        width: 100%;
+    } 
+    .navbar {
+        width: 100%;
+        top: 59px; 
+    }
+    .navbar-collapse {
+        position: fixed;
+        width: 100%;
+        top: 50px;
+        border: none;
+    }
+    .main {
+        width: 100%;
+        padding-top: 80px;
+    }
+}
+@media (max-width: 992px) {
+    .navbar a {
+        font-size: 1.5rem !important;
+    }
+}
+@media (min-width: 993px) {
+    .sidebar {
+        position: sticky !important;
+        top: 0;
+        height: 90vh;
+        overflow: auto;
+        padding-bottom: 300px;
+    }
+}
+
+.breadcrumb {
+    margin-bottom: 780px;
+    background: #fff;
+}
+.breadcrumb a {
+    color: #000 !important;
+}
+.breadcrumb-item {
+    color: #000 !important;
+}
+form input[value='Bookmark'] {
+    position: absolute !important;
+    top: 515px;
+    right: 30px;
+    z-index: 10;
+}
+.feature-display {
+    height: 280px;
+    width: 96%;
+    margin-top: 150px;
+    position: absolute;
+    top: 120px;
+    background: #fff;
+}
+.feature-display img {
+    position: absolute !important;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    margin-top: -200px;
+}
+#about img {
+    display: none;
+}
+#about {
+    position: absolute;
+    top: 60px;
+    border: none;
+    left: 0;
+}
+#about .top, #about .bottom {
+    background: none;
+}
+.xlarge.b a {
+    font-size: 60px;
+    color: #000 !important;
+    filter: none
+}
+.xlarge.b {
+    font-size: 0px;
+    text-align: right;
+    margin-right: 20px;
+    color: #000;
+    filter: drop-shadow(1px 1px 4px #d1e5ea)
+}
+.xlarge.b:after {
+    content: ', [ TITLE ]';
+    font-size: 40px;
+}
+#about .inner-table {
+    position: absolute;
+    top: 400px;
+    left: -200px;
+    width: 100%;
+}
+#about .inner-table a {
+    color: #000;
+}
+.inner-table .left {
+    background: #bbb;
+    color: #000;
+}
+.inner-table .right {
+    background: #ccc;
+    color: #000;
+}
+#about .bottom {
+    position: absolute;
+    top: 460px;
+    margin-left: 20px;
+}
+#about .bottom a {
+    color: #000;
+    text-decoration: none;
+    transition: 0.4s
+}
+#about .bottom a:hover {
+    filter: drop-shadow(1px 1px 4px #ffffff);
+}
+
+.alert {
+    background: #fff;
+    color: #000;
+}
+.alert a {
+    color: #000;
+}
+.alert-danger, .alert-warning {
+    background: #ccc;
+}
+
+h1 {
+    display: none
+}
+
+.boxsection {
+    margin-top: -80px;
+    text-align: left;
+    color: #000;
+}
+.contentheader {
+    font-size: 24px;
+    padding-left: 12px;
+    padding-right: 6px;
+    background: #aaa;
+}
+.contentsubheader {
+    font-size: 20px;
+    padding-left: 12px;
+    padding-right: 6px;
+    background: #ccc;
+}
+.contentsection {
+    padding: 40px;
+    display: flex;
+    gap: 15px;
+}
+.contentbox {
+    flex: 3;
+}
+.contentsubsubheader {
+    font-size: 18px;
+    padding-left: 6px;
+    padding-right: 6px;
+    background: #bbb;
+}
+.maincontent {
+    margin-top: 20px;
+    font-size: 16px;
+    height: 300px;
+    padding: 10px;
+    overflow: auto;
+    background: #fff;
+}
+.imagecontent {
+    flex: 2;
+}
+
+#commentBox {
+    width: 70% ;
+    margin-left: 30%;
+    background: none;
+    color: #000;
+}
+#commentBox:before {
+    content: '[ OPTIONAL IMAGE ]';
+    font-size: 40px;
+    position: absolute;
+    left: -25px;
+    margin-top: 70px;
+    height: 30px;
+    width: 280px;
+    background: ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    pointer-events: none;
+}
+.comment {
+    background: #bbb !important;
+    border-bottom: 1px solid #f2f7f8 !important;
+}
+.comment:last-of-type {
+    background: #ccc !important;
+    border: none !important
+}
+.comment a, .comment small {
+    color: #000;
+}
+
+table:not(#about) .top, table:not(#about) th, table:not(#about) .bottom, #player .right_odd, form .left:has(a[href='/account-settings.php']), .badge {
+    background: #fff;
+    color: #000;
+}
+table:not(#about) .top a, table:not(#about) th a, table:not(#about) .bottom a, #player .right_odd a {
+    color: #000;
+    text-decoration: none;
+}
+table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td.right_odd{
+    background: #ccc !important;
+    color: #000;
+}
+#sparring .right_odd, *:has(.featured-lion) table .left.b {
+    background: #bbb !important;
+}
+.col-sm-4 div {
+    width: 100% !important;
+}
+table:not(#about):not(#about .inner-table) a, .dynastylist div h3, form .left:has(a[href='/account-settings.php']) a {
+    color: #000;
+}
+table td[colspan='100%'].left {
+    background: #aaa !important;
+}
+#editdetailspanel .left.b, table td .left.b {
+    background: #bbb !important;
+}
+
+#fraOrganizationBlock .col-md-4 {
+    width: 33%
+}
+#fraMoundList .col-md-3 {
+    width: 25% !important
+}
+
+.feature {
+    height: 140px;
+    background: #ccc !important;
+    color: #000;
+}
+.feature h3, b:has(span[style="color: #ff0000;"]) {
+    color: #000;
+}
+span[style="color: #ff0000;"] {
+    color: #000 !important;
+}
+
+.panel {
+    background: #ddd !important;
+    color: #000 !important;
+}
+.panel a, .sidebar h3, .sidebar a, #txtChatContainer a {
+    color: #000;
+}
+.progress {
+    background: #fff;
+}
+.progress div {
+    color: #000;
+}
+.progress-bar {
+    background: #aaa;
+}
+
+#label_currentChannel, #fraChatChannelMenu, .channelSwitcher {
+    background: #ddd !important;
+    color: #000 !important;
+}
+.channelSwitcher.active {
+    background: #aaa !important;
+}
+
+#chatMessagePinned {
+    background-color: #ddd !important;
+    color: #000 !important;
+}
+#chatMessagePinned a {
+    color: #000 !important;
+}
+.s-chat-message {
+    padding-left: 6px !important;
+    background-color: #fff !important;
+    color: #000 !important;
+}
+.s-chat-message a, .s-chat-message_timestamp, #lblCharacterCounter {
+    color: #000 !important;
+    padding-left: 6px
+}
+
+#btnChatSettings, #btnLoadNewMessages {
+    filter: sepia(0%) hue-rotate(0deg);
+}
+*:has(.featured-lion) .breadcrumb {
+    margin-bottom: 30px;
+}
+*:has(.featured-lion) form input[value='Bookmark'] {
+    position: absolute !important;
+    top: 28.5px;
+    right: 20px;
+    z-index: 10;
+}
+.featured-lion {
+    background: #fff !important;
+}
+*:has(.featured-lion) #fraSidebarChat {
+    filter: grayscale(100%) sepia(0%) hue-rotate(0deg) saturate(60%) brightness(100%) contrast(100%);
+}
+.col-sm-4 {
+    display: inline-block !important;
+}
+.member-online {
+    background: #fff;
+    border-radius: 30px !important;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+.member-offline {
+    background: #000;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: drop-shadow(0px 0px 4px #000);
+}
+img[src*='icon-beetle-silver.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon-beetle-gold.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon_den_friend.png'] {
+    height: 24px;
+    width: 24px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon_den_wishlist.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon_den_message.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon_den_gift.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon_den_trade.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon_den_viewtrade.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon_den_block.png'] {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon-time-day.png'] {
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon-time-night.png'] {
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon-season-dry.png'] {
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='icon-season-wet.png'] {
+    display: inline-block; 
+    height: 16px !important;
+    width: 16px !important;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+a[href="/event.php"] img, a[href='/treasure-hunt.php'] img {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+a[href='/treasure-hunt.php'] img {
+    height: 20px;
+    width: 20px;
+    filter: drop-shadow(0px 0px 4px #fff);
+}
+img[src*='logo-full-2.png'] {
+    filter: hue-rotate(0deg) saturate(1%)
+}
+
+.lionImage img:first-of-type {
+    content: url(//static.lioden.com/images/blank.png);
+    background: #ccc;
+}
+
+*:has(.featured-lion):not(.panel) .right_odd img, *:has(.featured-lion):not(.panel) .right img, *:has(.featured-lion):not(.panel) .right_cub img {
+    filter: grayscale(100%) sepia(0%) hue-rotate(0deg) saturate(0%) brightness(100%);
+}
+
+.opacity-5 {
+    opacity: 5%;
+}
+.opacity-10 {
+    opacity: 10%;
+}
+.opacity-15 {
+    opacity: 15%;
+}
+.opacity-20 {
+    opacity: 20%;
+}
+.opacity-25 {
+    opacity: 25%;
+}
+.opacity-30 {
+    opacity: 30%;
+}
+.opacity-35 {
+    opacity: 35%;
+}
+.opacity-40 {
+    opacity: 40%;
+}
+.opacity-45 {
+    opacity: 45%;
+}
+.opacity-50 {
+    opacity: 50%;
+}
+.opacity-55 {
+    opacity: 55%;
+}
+.opacity-60 {
+    opacity: 60%;
+}
+.opacity-65 {
+    opacity: 65%;
+}
+.opacity-70 {
+    opacity: 70%;
+}
+.opacity-75 {
+    opacity: 75%;
+}
+.opacity-80 {
+    opacity: 80%;
+}
+.opacity-85 {
+    opacity: 85%;
+}
+.opacity-90 {
+    opacity: 90%;
+}
+.opacity-95 {
+    opacity: 95%;
+}
+.opacity-100 {
+    opacity: 100%;
+}
