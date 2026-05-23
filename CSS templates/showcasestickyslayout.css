@@ -350,7 +350,7 @@ table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 d
     background: #ccc !important;
     color: #000;
 }
-#sparring .right_odd, *:has(.featured-lion) table .left.b {
+#sparring .right_odd, table .left.b {
     background: #bbb !important;
 }
 table:not(#about):not(#about .inner-table) a, .dynastylist div h3, form .left:has(a[href='/account-settings.php']) a {
