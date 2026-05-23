@@ -431,7 +431,7 @@ span[style="color: #ff0000;"] {
 }
 .s-chat-message_timestamp, #lblCharacterCounter {
     padding-left: 6px;
-    padding-right: 6px
+    padding-right: 6px;
 }
 
 #btnChatSettings, #btnLoadNewMessages {
