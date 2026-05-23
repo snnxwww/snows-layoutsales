@@ -28,7 +28,7 @@ input:hover, .button:hover, select:hover, textarea:hover {
     filter: drop-shadow(1px 1px 4px #cdc1bc)
 }
 
-a {
+a:not(a[href*='stud_requests']):not(a[href*='userlog']):not(a[href*='attacks']) {
     color: #000 !important;
     display: inline-block;
     transition: 0.4s;
@@ -353,9 +353,6 @@ table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 d
 #sparring .right_odd, *:has(.featured-lion) table .left.b {
     background: #bbb !important;
 }
-.col-sm-4 div {
-    width: 100% !important;
-}
 table:not(#about):not(#about .inner-table) a, .dynastylist div h3, form .left:has(a[href='/account-settings.php']) a {
     color: #000;
 }
@@ -371,6 +368,13 @@ table td[colspan='100%'].left {
 }
 #fraMoundList .col-md-3 {
     width: 25% !important
+}
+
+.col-sm-4 {
+    display: block !important;
+}
+.col-sm-4 div {
+    width: 100% !important;
 }
 
 .feature {
