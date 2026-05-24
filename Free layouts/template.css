@@ -19,6 +19,14 @@
     color: var(--txt) !important;
 }
 
+
+a  {
+    transition: 0.4s !important;
+}
+a:hover {
+    filter: drop-shadow(0px 0px 2px var(--txt));
+}
+
 body {
     background: ;
 }
@@ -40,12 +48,7 @@ body {
 .topbar {
     background: color-mix(var(--clr), var(--darkaccent) 40%);
 }
-.topbar a {
-    transition: 0.4s;
-}
-.topbar a:hover {
-    filter: drop-shadow(0px 0px 2px var(--txt));
-}
+
 
 .navbar {
     background: var(--clr);
@@ -70,11 +73,11 @@ img[src*='logo-full-2.png'] {
 table, .feature, .maincontent, .sidecontent, .leftcontent, .rightcontent, .topcontent, .bottomcontent, .centercontent, .leftcentercontent, .rightcentercontent {
     background: color-mix(var(--clr), var(--lightaccent) 40%) !important;
 }
-.right_odd, table .left.b, .inner-table .right, .footer, .contentsubheader {
+table .right_odd, table .left.b, .inner-table .right, .content .footer, .contentsubheader {
     background: color-mix(var(--clr), var(--lightaccent) 20%) !important;
 }
 .inner-table .left {
-    background: color-mix(var(--clr), var(--lightaccent) 10%);
+    background: color-mix(var(--clr), var(--lightaccent) 10%) !important;
 }
 .member-online {
     background: color-mix(var(--clr), var(--lightaccent) 90%);
@@ -125,4 +128,7 @@ input:hover, .button:hover, textarea:hover, select:hover {
 
 input::placeholder {
     color: color-mix(var(--txt), var(--darkaccent) 20%) !important;
+}
+.col-xs-10 {
+    background: none !important;
 }
