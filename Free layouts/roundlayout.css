@@ -120,7 +120,6 @@ table img {
 }
 *:has(.featured-lion) th[colspan='2']:has(.floatright) {
      border-top-left-radius: 18px !important;
-
 }
 .sub_menu {
     border-radius: 18px !important
