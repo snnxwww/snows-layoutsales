@@ -1,1 +1,128 @@
+/* CSS Layout by Snow #553411
 
+- Credit removal is not permitted
+- These layouts may only be used with codes made by #553411
+- Do not clip sections of code to use elsewhere, whether it is for a free, commissioned, or personal CSS
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+* {
+    font-family: 'Cormorant Garamond';
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    border-color: var(--txt) !important;
+    color: var(--txt) !important;
+}
+
+body {
+    background: ;
+}
+
+.breadcrumb:after {
+    content: 'CSS by Snow #553411';
+    position: absolute;
+    right: 120px;
+}
+
+:root {
+    --txt: #fff;
+    --clr: #aaa;
+    --darkaccent: #000000;
+    --lightaccent: #ffffff;
+    --img: grayscale(100%) sepia(100%) hue-rotate(100deg) saturate(0%)
+}
+
+.topbar {
+    background: color-mix(var(--clr), var(--darkaccent) 40%);
+}
+.topbar a {
+    transition: 0.4s;
+}
+.topbar a:hover {
+    filter: drop-shadow(0px 0px 2px var(--txt));
+}
+
+.navbar {
+    background: var(--clr);
+}
+.navbar a {
+    transition: 0.4s
+}
+.navbar a:not(:has(img[src*='logo-full-2.png'])):hover {
+    background: none !important;
+    box-shadow: 0px 0px 8px var(--txt) !important;
+}
+.navbar-toggle {
+    background: none !important;
+}
+img[src*='logo-full-2.png'] {
+    filter: var(--img);
+}
+
+.breadcrumb, .alert, .contentheader, table th, table .top, table .bottom, .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td[colspan='100%'], .left:has(a[href*='account-settings']) {
+    background: var(--clr) !important;
+}
+table, .feature, .maincontent, .sidecontent, .leftcontent, .rightcontent, .topcontent, .bottomcontent, .centercontent, .leftcentercontent, .rightcentercontent {
+    background: color-mix(var(--clr), var(--lightaccent) 40%) !important;
+}
+.right_odd, table .left.b, .inner-table .right, .footer, .contentsubheader {
+    background: color-mix(var(--clr), var(--lightaccent) 20%) !important;
+}
+.inner-table .left {
+    background: color-mix(var(--clr), var(--lightaccent) 10%);
+}
+.member-online {
+    background: color-mix(var(--clr), var(--lightaccent) 90%);
+}
+.member-offline, .progress-bar {
+    background: color-mix(var(--clr), var(--darkaccent) 50%);
+}
+.panel, #label_currentChannel, #fraChatChannelMenu, #chatMessagePinned {
+    background-color: color-mix(var(--clr), var(--darkaccent) 20%) !important;
+}
+.progress, .channelSwitcher.active, .channelSwitcher:hover {
+    background: color-mix(var(--clr), var(--lightaccent) 20%) !important;
+}
+.s-chat-message {
+    background: color-mix(var(--clr), var(--darkaccent) 5%) !important;
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+    border-bottom: 1px solid var(--txt) !important;
+}
+.comment {
+    background: color-mix(var(--clr), var(--lightaccent) 40%) !important;
+    border-bottom: 1px solid var(--txt) !important;
+}
+.comment:last-of-type {
+    border: none !important
+}
+.s-chat-message_timestamp {
+    padding-left: 8px !important;
+}
+
+.breadcrumb-item, a {
+    color: color-mix(var(--txt), var(--darkaccent) 2%) !important;
+}
+
+.main {
+    background:  color-mix(var(--clr), var(--lightaccent) 20%);
+}
+.col-md-9 {
+    background: color-mix(var(--clr), var(--lightaccent) 60%);
+}
+input, .button, textarea, select {
+    background: color-mix(var(--clr), var(--darkaccent) 40%) !important;
+    transition: 0.4s;
+}
+input:hover, .button:hover, textarea:hover, select:hover {
+    filter: brightness(105%)
+}
+
+input::placeholder {
+    color: color-mix(var(--txt), var(--darkaccent) 20%) !important;
+}
