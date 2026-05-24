@@ -6,6 +6,14 @@
 
 */
 
+:root {
+    --txt: #fff;
+    --clr: #aaa;
+    --darkaccent: #000000;
+    --lightaccent: #ffffff;
+    --img: grayscale(100%) sepia(100%) hue-rotate(100deg) saturate(0%)
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
 
 
@@ -28,7 +36,7 @@ a:hover {
 }
 
 body {
-    background: ;
+    background: var(--clr);
 }
 
 .breadcrumb:after {
@@ -37,13 +45,6 @@ body {
     right: 120px;
 }
 
-:root {
-    --txt: #fff;
-    --clr: #aaa;
-    --darkaccent: #000000;
-    --lightaccent: #ffffff;
-    --img: grayscale(100%) sepia(100%) hue-rotate(100deg) saturate(0%)
-}
 
 .topbar {
     background: color-mix(var(--clr), var(--darkaccent) 40%);
@@ -51,7 +52,7 @@ body {
 
 
 .navbar {
-    background: var(--clr);
+    background: color-mix(var(--clr), var(--darkaccent) 30%);
 }
 .navbar a {
     transition: 0.4s
