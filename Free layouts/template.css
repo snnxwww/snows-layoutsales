@@ -68,7 +68,7 @@ img[src*='logo-full-2.png'] {
     filter: var(--img);
 }
 
-.breadcrumb, .alert, .contentheader, table th, table .top, table .bottom, .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td[colspan='100%'], .left:has(a[href*='account-settings']) {
+.breadcrumb, .alert, .contentheader, table th, table .top, table .bottom, .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td[colspan='100%'], .left:has(a[href*='account-settings']), .featured-lion {
     background: var(--clr) !important;
 }
 table, .feature, .maincontent, .sidecontent, .leftcontent, .rightcontent, .topcontent, .bottomcontent, .centercontent, .leftcentercontent, .rightcentercontent {
