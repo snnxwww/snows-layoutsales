@@ -352,11 +352,11 @@ table:not(#about) .top a, table:not(#about) th a, table:not(#about) .bottom a, #
     color: #000;
     text-decoration: none;
 }
-table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td.right_odd{
+table:not(#about):not(#about .inner-table), .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td.right_odd, .sub_sub_menu {
     background: #ccc !important;
     color: #000;
 }
-#sparring .right_odd, table .left.b {
+#sparring .right_odd, table .left.b, .sub_menu {
     background: #bbb !important;
 }
 table:not(#about):not(#about .inner-table) a, .dynastylist div h3, form .left:has(a[href='/account-settings.php']) a {
