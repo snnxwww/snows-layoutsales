@@ -9,9 +9,9 @@
 
 :root {
     --txt: #ffffff;
-    --clr: #aaa;
+    --clr: #404040;
     --darkaccent: #000000;
-    --lightaccent: #ffffff;
+    --lightaccent: #777777;
     --img: grayscale(100%) sepia(0%) hue-rotate(100deg) saturate(0%) brightness(100%);
     --imgrp: url('');
 }
@@ -32,6 +32,27 @@ img[src*='banner'] {
     content: var(--imgrp);
     object-fit: cover;
     height: 60px;
+}
+.cave-grid:has(img[src*='unsorted']):after {
+    content: 'UNSORTED';
+    position: absolute;
+    top: 5px;
+    margin-left: -120px;
+    font-size: 18px;
+}
+.cave-grid:has(img[src*='nesting']):after {
+    content: 'NESTING';
+    position: absolute;
+    top: 5px;
+    margin-left: -145px;
+    font-size: 18px;
+}
+.cave-grid:has(img[src*='pride']):after {
+    content: 'PRIDE OVERVIEW';
+    position: absolute;
+    top: 5px;
+    margin-left: -145px;
+    font-size: 18px;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
