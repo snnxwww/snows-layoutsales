@@ -82,10 +82,10 @@ img[src*='logo-full-2.png'] {
     filter: var(--img);
 }
 
-.breadcrumb, .alert, .contentheader, table th, table .top, table .bottom, .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td[colspan='100%'], .left:has(a[href*='account-settings']), .featured-lion {
+.sub_menu, .breadcrumb, .alert, .contentheader, table th, table .top, table .bottom, .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, table td[colspan='100%'], .left:has(a[href*='account-settings']), .featured-lion {
     background: var(--clr) !important;
 }
-table, .feature, .maincontent, .sidecontent, .leftcontent, .rightcontent, .topcontent, .bottomcontent, .centercontent, .leftcentercontent, .rightcentercontent {
+.sub_sub_menu, table, .feature, .maincontent, .sidecontent, .leftcontent, .rightcontent, .topcontent, .bottomcontent, .centercontent, .leftcentercontent, .rightcentercontent {
     background: color-mix(var(--clr), var(--lightaccent) 40%) !important;
 }
 table .right_odd, table .left.b, .inner-table .right, .content .footer, .contentsubheader {
@@ -201,7 +201,8 @@ input::placeholder {
     border-top-right-radius: 16px !important;
 }
 *:has(.roundedges) table .bottom,
-*:has(.roundedges) .footer {
+*:has(.roundedges) .footer,
+*:has(.roundedges) .sub_sub_menu {
     border-bottom-left-radius: 16px !important;
     border-bottom-right-radius: 16px !important;
 }
@@ -254,7 +255,8 @@ input::placeholder {
 *:has(.roundedges) #sparring .right_odd {
     border-bottom-right-radius: 18px !important;
 }
-*:has(.roundedges) .progress {
+*:has(.roundedges) .progress, 
+*:has(.roundedges) .sub_menu {
     border-radius: 10px !important
 }
 *:has(.roundedges) #chatMessageContainer {
