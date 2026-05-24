@@ -122,3 +122,13 @@ table img {
      border-top-left-radius: 18px !important;
 
 }
+.sub_menu {
+    border-radius: 18px !important
+}
+.sub_sub_menu {
+    border-bottom-right-radius: 18px !important;
+    border-bottom-left-radius: 18px !important;
+}
+td.bottom[colspan='3'] {
+    border-radius: 18px !important;
+}
