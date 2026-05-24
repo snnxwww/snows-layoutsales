@@ -9,10 +9,10 @@
 
 :root {
     --txt: #ffffff;
-    --clr: #404040;
+    --clr: #aaa;
     --darkaccent: #000000;
-    --lightaccent: #777777;
-    --img: grayscale(100%) sepia(0%) hue-rotate(100deg) saturate(0%) brightness(100%);
+    --lightaccent: #fff;
+    --img: grayscale(0%) sepia(0%) hue-rotate(0deg) saturate(0%) brightness(100%);
     --imgrp: url('');
 }
 body {
