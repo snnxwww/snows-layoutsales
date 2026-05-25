@@ -31,6 +31,9 @@ body {
     border-color: var(--txt) !important;
     color: var(--txt) !important;
 }
+*:before, *:after {
+    color: var(--txt) !important;
+}
 
 
 a  {
