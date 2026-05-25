@@ -8,10 +8,10 @@
 */
 
 :root {
-    --txt: #f6eceb;
+    --txt: #210401;
     --clr: #FA8072;
-    --darkaccent: #844841;
-    --lightaccent: #e6cecb;
+    --darkaccent: #a1483e;
+    --lightaccent: #ffe4e1;
     --img: grayscale(30%) sepia(20%) hue-rotate(-25deg) saturate(130%) brightness(100%);
 }
 body {
