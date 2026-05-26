@@ -124,18 +124,18 @@ input, select, textarea, .button, .progress-bar  {
     background: color-mix(var(--header1), #000 15%) !important;
 }
 
-.topbar {
+.topbar, .sub_sub_menu {
     background: linear-gradient(90deg, color-mix(var(--header1), #000 5%), color-mix(var(--header2), #000 5%));
     border: 2px solid var(--txt) !important;
     border-top: none !important
 }
-.navbar, .navbar-toggle, .breadcrumb, .alert, table .top, table th, table .bottom, table td[colspan='100%'], .contentheader, #chatMessagePinned, .channelSwitcher.active, .channelSwitcher:hover {
+.navbar, .navbar-toggle, .breadcrumb, .alert, table .top, table th, table .bottom, table td[colspan='100%'], .contentheader, #chatMessagePinned, .channelSwitcher.active, .channelSwitcher:hover, .sub_menu {
     background: linear-gradient(90deg, var(--header1), var(--header2)) !important;
 }
 .panel {
     background: var(--header2) !important
 }
-.breadcrumb, .alert, .panel, table:not(.inner-table), .cave-grid, .mound-grid, .feature, .col-md-4 div, .col-sm-4 div, .left:has(a[href*="account-settings"]), #chatMessageContainer {
+.breadcrumb, .alert, .panel, table:not(.inner-table), .cave-grid, .mound-grid, .feature, .col-md-4 div, .col-sm-4 div, .left:has(a[href*="account-settings"]), #chatMessageContainer, .sub_menu {
     border: 2px solid var(--txt) !important;
 }
 .navbar {
@@ -147,13 +147,13 @@ input, select, textarea, .button, .progress-bar  {
 .navbar a {
     color: var(--txt) !important;
 }
-table .left.b, .contentsubheader, .content .footer, .comment, .mb-0, div[role='menu'] {
-    background-color: color-mix(var(--header), var(--colour) 30%) !important
+table .left.b, .contentsubheader, .content .footer, .comment, .mb-0, div[role='menu'], .featured-lion {
+    background-color: color-mix(var(--header1), var(--colour) 30%) !important
 }
 table {
     border-collapse: separate !important;
 }
-#commentBox, #makeComment input, .sidebar .button, #txtChatContainer input, #label_currentChannel {
+#commentBox, #makeComment input, .sidebar .button, #txtChatContainer input, #label_currentChannel, .featured-lion {
     border: 2px solid var(--txt) !important;
 }
 #makeComment input::placeholder {
@@ -176,17 +176,17 @@ table, .cave-grid, .mound-grid, table .right_odd, .feature, .col-md-4 div, .col-
     background-color: var(--colour) !important
 }
 .inner-table .left {
-    background-color: color-mix(var(--colour), var(--header) 90%)
+    background-color: color-mix(var(--colour), var(--header1) 90%)
 }
 .inner-table .right {
-    background-color: color-mix(var(--colour), var(--header) 50%)
+    background-color: color-mix(var(--colour), var(--header1) 50%)
 }
 .s-chat-message, .s-chat-message_timestamp {
     padding-left: 10px !important;
     padding-right: 10px !important
 }
 .s-chat-message.hasContext {
-    background-color: color-mix(var(--colour), var(--header) 50%) !important
+    background-color: color-mix(var(--colour), var(--header1) 50%) !important
 }
 
 
@@ -622,5 +622,3 @@ table, .cave-grid, .mound-grid, table .right_odd, .feature, .col-md-4 div, .col-
 .quadsectionedexpander-layout .leftcontent:hover, .quadsectionedexpander-layout .leftcentercontent:hover, .quadsectionedexpander-layout .rightcentercontent:hover, .quadsectionedexpander-layout .rightcontent:hover {
     flex: 3;
 }
-
-
