@@ -73,6 +73,26 @@ img[src*='mound'], img[src*='unsortedbeetle'] {
     height: 80px;
     object-fit: cover;
 }
+.member-online {
+    background: color-mix(var(--txt), #fff) !important;
+    border-radius: 20px !important;
+}
+.member-online:after {
+    content: '(online)';
+    font-size: 12px;
+    position: absolute;
+    margin-left: -50px;
+}
+.member-offline {
+    background: color-mix(var(--txt), #000) !important;
+    border-radius: 20px !important;
+}
+.member-offline:after {
+    content: '(offline)';
+    font-size: 12px;
+    position: absolute;
+    margin-left: -50px;
+}
 
 body {
     background: var(--bg);
@@ -595,3 +615,5 @@ table, .cave-grid, .mound-grid, table .right_odd, .feature, .col-md-4 div, .col-
 .quadsectionedexpander-layout .leftcontent:hover, .quadsectionedexpander-layout .leftcentercontent:hover, .quadsectionedexpander-layout .rightcentercontent:hover, .quadsectionedexpander-layout .rightcontent:hover {
     flex: 3;
 }
+
+
