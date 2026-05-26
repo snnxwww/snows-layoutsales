@@ -13,7 +13,7 @@
     --txt: #ffffff;
     --header: #888888;
     --colour: #adadad;
-    --logo: grayscale(100%) brightness(100%) sepia(0%);
+    --logo: grayscale(100%) brightness(100%) sepia(0%) hue-rotate(0deg) saturate(0%);
     --img: url('');
 }
 
