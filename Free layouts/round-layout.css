@@ -84,33 +84,36 @@ input, .button, textarea, select {
     border-radius: 18px !important;
 }
 table th, table .top {
-    border-top-left-radius: 18px !important;
-    border-top-right-radius: 18px !important;
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
 }
 table .bottom {
-    border-bottom-left-radius: 18px !important;
-    border-bottom-right-radius: 18px !important;
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
 }
 table, .feature, table th:has(a[href*='#']), .col-sm-4 div, .col-sm-6 div, .left:has(a[href*='account-settings']) {
-    border-radius: 18px !important;
+    border-radius: 16px !important;
 }
 #sparring .right_odd {
-    border-bottom-right-radius: 18px !important;
+    border-bottom-right-radius: 17px !important;
 }
 table img {
-    border-radius: 18px !important;
+    border-radius: 16px !important;
+}
+#editdetailspanel td.left.b {
+    border-top-left-radius: 16px !important;
 }
 .panel {
-    border-radius: 18px !important
+    border-radius: 16px !important
 }
 .progress {
     border-radius: 10px !important
 }
 #chatMessageContainer {
-    border-radius: 18px !important;
+    border-radius: 16px !important;
 }
 .featured-lion {
-    border-radius: 18px !important;
+    border-radius: 16px !important;
 }
 *:has(.featured-lion) th[colspan='4'] {
     border-top-right-radius: 0px !important;
@@ -119,15 +122,15 @@ table img {
     border-top-left-radius: 0px !important;
 }
 *:has(.featured-lion) th[colspan='2']:has(.floatright) {
-     border-top-left-radius: 18px !important;
+     border-top-left-radius: 16px !important;
 }
 .sub_menu {
-    border-radius: 18px !important
+    border-radius: 16px !important
 }
 .sub_sub_menu {
-    border-bottom-right-radius: 18px !important;
-    border-bottom-left-radius: 18px !important;
+    border-bottom-right-radius: 16px !important;
+    border-bottom-left-radius: 68px !important;
 }
 td.bottom[colspan='3'] {
-    border-radius: 18px !important;
+    border-radius: 16px !important;
 }
