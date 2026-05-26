@@ -156,6 +156,9 @@ table {
 #commentBox, #makeComment input, .sidebar .button, #txtChatContainer input, #label_currentChannel {
     border: 2px solid var(--txt) !important;
 }
+#makeComment input::placeholder {
+    padding-left: 5px;
+}
 #modalClaimBG {
     display: none;
 }
