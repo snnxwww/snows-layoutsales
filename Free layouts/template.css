@@ -128,7 +128,7 @@ input, select, textarea, .button, .progress-bar  {
     border: 2px solid var(--txt) !important;
     border-top: none !important
 }
-.navbar, .breadcrumb, .alert, table .top, table th, table .bottom, table td[colspan='100%'], .contentheader, .panel, #chatMessagePinned, .channelSwitcher.active, .channelSwitcher:hover {
+.navbar, .navbar-toggle, .breadcrumb, .alert, table .top, table th, table .bottom, table td[colspan='100%'], .contentheader, .panel, #chatMessagePinned, .channelSwitcher.active, .channelSwitcher:hover {
     background-color: var(--header) !important;
 }
 .breadcrumb, .alert, .panel, table:not(.inner-table), .cave-grid, .mound-grid, .feature, .col-md-4 div, .col-sm-4 div, .left:has(a[href*="account-settings"]), #chatMessageContainer {
