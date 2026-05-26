@@ -69,7 +69,7 @@ img[src*='cave'] {
     height: 120px;
     object-fit: cover;
 }
-img[src*='mound'], img[src*='unsortedbeetle'] {
+img[src*='mound'], img[src*='beetleunsorted'] {
     content: var(--img);
     height: 80px;
     object-fit: cover;
