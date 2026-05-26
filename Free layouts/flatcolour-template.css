@@ -30,7 +30,7 @@
     border-color: var(--txt) !important;
     color: var(--txt) !important;
 }
-*:before, *:after {
+*:before, *:after, *::placeholder {
     color: var(--txt) !important;
 }
 
