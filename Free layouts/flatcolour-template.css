@@ -123,12 +123,12 @@ input, select, textarea, .button, .progress-bar  {
     background: color-mix(var(--header), #000 15%) !important;
 }
 
-.topbar {
+.topbar, .sub_sub_menu {
     background-color: color-mix(var(--header), #000 5%);
     border: 2px solid var(--txt) !important;
     border-top: none !important
 }
-.navbar, .navbar-toggle, .breadcrumb, .alert, table .top, table th, table .bottom, table td[colspan='100%'], .contentheader, .panel, #chatMessagePinned, .channelSwitcher.active, .channelSwitcher:hover {
+.navbar, .navbar-toggle, .breadcrumb, .alert, table .top, table th, table .bottom, table td[colspan='100%'], .contentheader, .panel, #chatMessagePinned, .channelSwitcher.active, .channelSwitcher:hover, .sub_menu {
     background-color: var(--header) !important;
 }
 .breadcrumb, .alert, .panel, table:not(.inner-table), .cave-grid, .mound-grid, .feature, .col-md-4 div, .col-sm-4 div, .left:has(a[href*="account-settings"]), #chatMessageContainer {
@@ -143,13 +143,13 @@ input, select, textarea, .button, .progress-bar  {
 .navbar a {
     color: var(--txt) !important;
 }
-table .left.b, .contentsubheader, .content .footer, .comment, .mb-0, div[role='menu'] {
+table .left.b, .contentsubheader, .content .footer, .comment, .mb-0, div[role='menu'], .featured-lion {
     background-color: color-mix(var(--header), var(--colour) 30%) !important
 }
 table {
     border-collapse: separate !important;
 }
-#commentBox, #makeComment input, .sidebar .button, #txtChatContainer input, #label_currentChannel {
+#commentBox, #makeComment input, .sidebar .button, #txtChatContainer input, #label_currentChannel, .sub_menu, .featured-lion {
     border: 2px solid var(--txt) !important;
 }
 #makeComment input::placeholder {
@@ -618,5 +618,3 @@ table, .cave-grid, .mound-grid, table .right_odd, .feature, .col-md-4 div, .col-
 .quadsectionedexpander-layout .leftcontent:hover, .quadsectionedexpander-layout .leftcentercontent:hover, .quadsectionedexpander-layout .rightcentercontent:hover, .quadsectionedexpander-layout .rightcontent:hover {
     flex: 3;
 }
-
-
