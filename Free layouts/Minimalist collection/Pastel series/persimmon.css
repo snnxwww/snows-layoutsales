@@ -37,42 +37,7 @@
 img[src*='logo-full-2.png'] {
     filter: var(--logo);
 }
-img[src*='banner'] {
-    content: var(--img);
-    height: 60px;
-    object-fit: cover;
-}
-.cave-grid:has(img[src*='unsortedlions']):after {
-    content: 'UNSORTED';
-    position: absolute;
-    font-size: 18px;
-    top: 10px;
-    margin-left: -120px;
-}
-.cave-grid:has(img[src*='nesting']):after {
-    content: 'NESTING';
-    position: absolute;
-    font-size: 18px;
-    top: 10px;
-    margin-left: -150px;
-}
-.cave-grid:has(img[src*='prideoverview']):after {
-    content: 'PRIDE OVERVIEW';
-    position: absolute;
-    font-size: 18px;
-    top: 10px;
-    margin-left: -150px;
-}
-img[src*='cave'] {
-    content: var(--img);
-    height: 120px;
-    object-fit: cover;
-}
-img[src*='mound'], img[src*='beetleunsorted'] {
-    content: var(--img);
-    height: 80px;
-    object-fit: cover;
-}
+
 .member-online {
     background: color-mix(var(--txt), #fff) !important;
     border-radius: 20px !important;
