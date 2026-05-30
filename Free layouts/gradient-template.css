@@ -120,7 +120,7 @@ a:hover, input:hover, select:hover, textarea:hover, .button:hover  {
     right: 120px;
 }
 
-input, select, textarea, .button, .progress-bar  {
+input, select, textarea, .button, .progress-bar, .badge  {
     background: color-mix(var(--header1), #000 15%) !important;
 }
 
