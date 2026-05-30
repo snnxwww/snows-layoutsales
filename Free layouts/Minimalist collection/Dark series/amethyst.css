@@ -1,0 +1,585 @@
+/* CSS Layout by Snow #553411
+
+- Credit removal is not permitted
+- These layouts may ONLY be used with codes made by #553411
+- Do not clip sections of code to use elsewhere, whether it is for a free, commissioned, or personal CSS
+- Failure to comply with my terms will result in a block
+
+*/
+
+:root {
+    --bg: #463f50 url('');
+    --main: #63596f;
+    --txt: #bab3c9;
+    --header: #443854;
+    --colour: #6f647c;
+    --logo: grayscale(20%) brightness(70%) sepia(100%) saturate(80%) hue-rotate(230deg);
+    --img: url('');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+
+* {
+    font-family: 'Cormorant Garamond';
+    border: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    border-radius: 0 !important;
+    text-decoration: none !important;
+    border-color: var(--txt) !important;
+    color: var(--txt) !important;
+}
+*:before, *:after, *::placeholder {
+    color: var(--txt) !important;
+}
+
+img[src*='logo-full-2.png'] {
+    filter: var(--logo);
+}
+
+.member-online {
+    background: color-mix(var(--txt), #fff) !important;
+    border-radius: 20px !important;
+}
+.member-online:after {
+    content: '(online)';
+    font-size: 12px;
+    position: absolute;
+    margin-left: -50px;
+}
+.member-offline {
+    background: color-mix(var(--txt), #000) !important;
+    border-radius: 20px !important;
+}
+.member-offline:after {
+    content: '(offline)';
+    font-size: 12px;
+    position: absolute;
+    margin-left: -50px;
+}
+
+body {
+    background: var(--bg);
+}
+
+.col-md-9 {
+    background: none;
+}
+.main {
+    background-color: var(--main);
+    border: 2px solid var(--txt) !important;
+}
+
+a, input, select, textarea, .button  {
+    transition: 0.4s !important;
+}
+a:hover, input:hover, select:hover, textarea:hover, .button:hover  {
+    filter: drop-shadow(0px 0px 2px var(--txt));
+}
+
+.breadcrumb:after {
+    content: 'CSS by Snow #553411';
+    position: absolute;
+    right: 120px;
+}
+
+input, select, textarea, .button, .progress-bar, .badge  {
+    background: color-mix(var(--header), #000 15%) !important;
+}
+
+.topbar, .sub_sub_menu {
+    background-color: color-mix(var(--header), #000 5%);
+    border: 2px solid var(--txt) !important;
+    border-top: none !important
+}
+.navbar, .navbar-toggle, .breadcrumb, .alert, table .top, table th, table .bottom, table td[colspan='100%'], .contentheader, .panel, #chatMessagePinned, .channelSwitcher.active, .channelSwitcher:hover, .sub_menu {
+    background-color: var(--header) !important;
+}
+.breadcrumb, .alert, .panel, table:not(.inner-table), .cave-grid, .mound-grid, .feature, .col-md-4 div, .col-sm-4 div, .left:has(a[href*="account-settings"]), #chatMessageContainer {
+    border: 2px solid var(--txt) !important;
+}
+.navbar {
+    border-bottom: 2px solid var(--txt) !important;
+}
+.navbar a:hover {
+    background: none !important;
+}
+.navbar a {
+    color: var(--txt) !important;
+}
+table .left.b, .contentsubheader, .content .footer, .comment, .mb-0, div[role='menu'], .featured-lion {
+    background-color: color-mix(var(--header), var(--colour) 30%) !important
+}
+table {
+    border-collapse: separate !important;
+}
+#commentBox, #makeComment input, .sidebar .button, #txtChatContainer input, #label_currentChannel, .sub_menu, .featured-lion {
+    border: 2px solid var(--txt) !important;
+}
+#makeComment input::placeholder {
+    padding-left: 5px;
+}
+#modalClaimBG {
+    display: none;
+}
+#fraChatChannelMenu {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+}
+.comment, .s-chat-message {
+    border-bottom: 1px solid var(--txt) !important;
+}
+.comment:last-of-type, .s-chat-message:last-of-type {
+    border: none !important
+}
+table, .cave-grid, .mound-grid, table .right_odd, .feature, .col-md-4 div, .col-sm-4 div, .left:has(a[href*='account-settings']), .maincontent, .sidecontent, .leftcontent, .leftcentercontent, .centercontent, .rightcentercontent, .rightcontent, .topcontent, .bottomcontent, #fraChatChannelMenu, #label_currentChannel, .s-chat-message, .progress, #modalClaimList {
+    background-color: var(--colour) !important
+}
+.inner-table .left {
+    background-color: color-mix(var(--colour), var(--header) 90%)
+}
+.inner-table .right {
+    background-color: color-mix(var(--colour), var(--header) 50%)
+}
+.s-chat-message, .s-chat-message_timestamp {
+    padding-left: 10px !important;
+    padding-right: 10px !important
+}
+.s-chat-message.hasContext {
+    background-color: color-mix(var(--colour), var(--header) 50%) !important
+}
+
+
+/* round edges */
+
+*:has(.roundedges) .topbar {
+    border-bottom-left-radius: 18px !important;
+    border-bottom-right-radius: 18px !important;
+}
+*:has(.roundedges) .navbar {
+    border-top-left-radius: 18px !important;
+    border-top-right-radius: 18px !important;
+}
+*:has(.roundedges) .navbar a {
+    border-radius: 10px !important;
+}
+*:has(.roundedges) .main {
+    border-radius: 18px !important;
+}
+*:has(.roundedges) .col-md-9 {
+    border-top-left-radius: 18px !important;
+    border-bottom-left-radius: 18px !important;
+}
+@media(max-width: 991px) {
+    *:has(.roundedges) .topbar {
+        border-radius: 0px !important;
+    }
+    *:has(.roundedges) .navbar {
+        border-radius: 0px !important
+    }
+    *:has(.roundedges) .col-md-9 {
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+}
+*:has(.roundedges) .breadcrumb,
+*:has(.roundedges) .alert {
+    border-radius: 16px !important;
+}
+*:has(.roundedges) input, 
+*:has(.roundedges) .button, 
+*:has(.roundedges) textarea, 
+*:has(.roundedges) select {
+    border-radius: 12px !important;
+}
+
+*:has(.roundedges) .contentheader,
+*:has(.roundedges) table th, 
+*:has(.roundedges) table .top {
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+}
+*:has(.roundedges) table .bottom,
+*:has(.roundedges) .footer,
+*:has(.roundedges) .sub_sub_menu {
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
+*:has(.roundedges) .staticbox-layout .maincontent,
+*:has(.roundedges) .trisectionedstaticbox-layout .maincontent,
+*:has(.roundedges) .expander-layout .maincontent,
+*:has(.roundedges) .topcontent,
+*:has(.roundedges) .bottomcontent,
+*:has(.roundedges) .centercontent,
+*:has(.roundedges) .leftcentercontent,
+*:has(.roundedges) .rightcentercontent,
+*:has(.roundedges) .disectionedstaticbox-layout .leftcontent, 
+*:has(.roundedges) .trisectionedstaticbox-layout .leftcontent,
+*:has(.roundedges) .disectionedexpander-layout .leftcontent,
+*:has(.roundedges) .trisectionedexpander-layout .leftcontent,
+*:has(.roundedges) .quadsectionedexpander-layout .leftcontent,
+*:has(.roundedges) .disectionedstaticbox-layout .rightcontent,
+*:has(.roundedges) .trisectionedstaticbox-layout .rightcontent,
+*:has(.roundedges) .disectionedexpander-layout .rightcontent,
+*:has(.roundedges) .trisectionedexpander-layout .rightcontent,
+*:has(.roundedges) .quadsectionedexpander-layout .rightcontent,
+*:has(.roundedges) #commentBox,
+*:has(.roundedges) .cave-grid,
+*:has(.roundedges) .mound-grid,
+*:has(.roundedges) table, 
+*:has(.roundedges) .feature, 
+*:has(.roundedges) table th:has(a[href*='#']),
+*:has(.roundedges) .col-sm-4 div,
+*:has(.roundedges) .col-sm-6 div,
+*:has(.roundedges) .left:has(a[href*='account-settings']),
+*:has(.roundedges) .panel,
+*:has(.roundedges) table img{
+    border-radius: 16px !important;
+}
+*:has(.roundedges) .comment img,
+*:has(.roundedges) #about img, 
+*:has(.roundedges) #player img,
+*:has(.roundedges) .member-online, 
+*:has(.roundedges) .member-offline {
+    border-radius: 100px !important;
+}
+*:has(.roundedges) .inner-table .left {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+*:has(.roundedges) .inner-table .right {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+*:has(.roundedges) #sparring .right_odd {
+    border-bottom-right-radius: 18px !important;
+}
+*:has(.roundedges) .progress, 
+*:has(.roundedges) .sub_menu {
+    border-radius: 10px !important
+}
+*:has(.roundedges) .featured-lion {
+    border-radius: 16px !important;
+}
+*:has(.featured-lion):has(.roundedges) th[colspan='4'] {
+    border-top-right-radius: 0px !important;
+}
+*:has(.featured-lion):has(.roundedges) th[colspan='2'] {
+    border-top-left-radius: 0px !important;
+}
+*:has(.featured-lion):has(.roundedges) th[colspan='2']:has(.floatright) {
+     border-top-left-radius: 16px !important;
+}
+
+
+
+
+/* den layouts */
+
+.content:after {
+    content: 'HTML layout by Snow #553411';
+    font-size: 12px;
+}
+.content {
+    text-align: center;
+}
+
+/* basic card layout */
+.contentheader {
+    border: 2px solid var(--txt) !important;
+    border-bottom: none !important;
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.basiccard-layout .maincontent {
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+    overflow: scroll;
+}
+.basiccard-layout .footer {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    margin: 0;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* card layout */
+.card-layout .contentheader {
+    border: 2px solid var(--txt) !important;
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-layout .contentsubheader {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-layout .maincontent {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+    overflow: scroll;
+}
+.card-layout .footer {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;    margin: 0;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* double sectioned card layout */
+.disectionedcard-layout .contentheader {
+    border: 2px solid var(--txt) !important;
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.disectionedcard-layout .contentsubheader {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.disectionedcard-layout .contentsection {
+    display: flex;
+}
+.disectionedcard-layout .maincontent {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+    overflow: scroll;
+    flex: 2;
+}
+.disectionedcard-layout .sidecontent {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    font-size: 16px;
+    border-left: none !important;
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+    overflow: scroll;
+    flex: 1;
+}
+.disectionedcard-layout .footer {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    margin: 0;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/* triple sectioned card layout */
+.trisectionedcard-layout .contentheader {
+    border: 2px solid var(--txt) !important;
+    font-size: 28px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.trisectionedcard-layout .contentsubheader {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.trisectionedcard-layout .maincontent {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    height: 300px;
+    overflow: scroll;
+}
+.trisectionedcard-layout .contentsection {
+    display: flex;
+}
+.trisectionedcard-layout .leftcontent, .trisectionedcard-layout .rightcontent {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    font-size: 16px;
+    text-align: left;
+    padding: 10px;
+    height: 180px;
+    overflow: scroll;
+    flex: 1;
+}
+.trisectionedcard-layout .leftcontent {
+    border-right: none !important;
+}
+.trisectionedcard-layout .footer {
+    border: 2px solid var(--txt) !important;
+    border-top: none !important;
+    margin: 0;
+    font-size: 16px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+/* static box layout */
+.staticbox-layout .maincontent { 
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    height: 250px;
+    text-align: left;
+    padding: 10px;
+    overflow: scroll;
+}
+
+
+/* double sectioned static box layout */
+.disectionedstaticbox-layout .contentsection {
+    display: flex;
+    gap: 20px;
+}
+.disectionedstaticbox-layout .leftcontent, .disectionedstaticbox-layout .rightcontent {
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    height: 400px;
+    overflow: scroll;
+    flex: 1;
+}
+
+
+/* triple sectioned static box layout */
+.trisectionedstaticbox-layout .maincontent { 
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    height: 400px;
+    text-align: left;
+    padding: 10px;
+    flex: 1;
+    overflow: scroll;
+}
+.trisectionedstaticbox-layout:has(.leftcontent) .maincontent { 
+    margin-bottom: 20px;
+}
+.trisectionedstaticbox-layout:has(.topcontent) .maincontent { 
+    height: 600px;
+}
+.trisectionedstaticbox-layout .contentsection {
+    display: flex;
+    gap: 20px;
+}
+.trisectionedstaticbox-layout .leftcontent, .trisectionedstaticbox-layout .rightcontent {
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    height: 250px;
+    overflow: scroll;
+    flex: 1;
+}
+.trisectionedstaticbox-layout .stackedsection {
+    flex: 1;
+}
+.trisectionedstaticbox-layout .topcontent, .trisectionedstaticbox-layout .bottomcontent {
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    text-align: left;
+    padding: 10px;
+    height: 290px;
+    overflow: scroll;
+}
+.trisectionedstaticbox-layout .topcontent {
+    margin-bottom: 20px;
+}
+
+/* expander layout */
+.expander-layout .maincontent { 
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    height: 150px;
+    text-align: left;
+    padding: 10px;
+    overflow: scroll;
+    transition: 1.2s;
+}
+.expander-layout .maincontent:hover {
+    height: 300px;
+}
+
+
+/* double sectioned expander layout */
+.disectionedexpander-layout .contentsection {
+    display: flex;
+    gap: 20px;
+}
+.disectionedexpander-layout .leftcontent, .disectionedexpander-layout .rightcontent { 
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    height: 350px;
+    text-align: left;
+    padding: 10px;
+    overflow: scroll;
+    flex: 1;
+    transition: 1.2s;
+}
+.disectionedexpander-layout .leftcontent:hover, .disectionedexpander-layout .rightcontent:hover {
+    flex: 3;
+}
+
+
+/* triple sectioned expander layout */
+.trisectionedexpander-layout .contentsection {
+    display: flex;
+    gap: 20px;
+}
+.trisectionedexpander-layout .leftcontent, .trisectionedexpander-layout .centercontent, .trisectionedexpander-layout .rightcontent{ 
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    height: 400px;
+    text-align: left;
+    padding: 10px;
+    overflow: scroll;
+    flex: 1;
+    transition: 1.2s;
+}
+.trisectionedexpander-layout .leftcontent:hover, .trisectionedexpander-layout .centercontent:hover, .trisectionedexpander-layout .rightcontent:hover {
+    flex: 3;
+}
+
+
+/* quadruple sectioned expander layout */
+.quadsectionedexpander-layout .contentsection {
+    display: flex;
+    gap: 20px;
+}
+.quadsectionedexpander-layout .leftcontent, .quadsectionedexpander-layout .leftcentercontent, .quadsectionedexpander-layout .rightcentercontent, .quadsectionedexpander-layout .rightcontent{ 
+    border: 2px solid var(--txt) !important;
+    font-size: 18px;
+    height: 400px;
+    text-align: left;
+    padding: 10px;
+    overflow: scroll;
+    flex: 1;
+    transition: 1.2s;
+}
+.quadsectionedexpander-layout .leftcontent:hover, .quadsectionedexpander-layout .leftcentercontent:hover, .quadsectionedexpander-layout .rightcentercontent:hover, .quadsectionedexpander-layout .rightcontent:hover {
+    flex: 3;
+}
