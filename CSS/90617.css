@@ -1,1 +1,45 @@
+/* CSS by Snow #553411, commisssioned by #90617
+- CREDIT REMOVAL IS NOT PERMITTED
+- DO NOT RESELL OR REDISTRIBUTE
+- DO NOT CLIP CODE OR USE THIS AS A TEMPLATE
+*/
 
+.contentbox {
+    border: 2px solid;
+    padding: 20px;
+}
+.boxsection {
+    display: flex;
+    margin-bottom: 20px;
+    gap: 15px;
+    margin-bottom: 0px;
+}
+.maincontent {
+    border: 2px solid;
+    flex: 4;
+    height: 400px;
+}
+.interaction {
+    border: 2px solid;
+    flex: 5;
+    height: 400px;
+}
+.interaction img {
+    height: 100% !important;
+    width: 100%;
+    object-fit: cover;
+}
+
+.option {
+    border: 2px solid;
+    position: absolute;
+    margin-top: -30px;
+    width: 250px;
+    right: 2%;
+    margin-right: 40px;
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.option:nth-child(2) { margin-top: -60px; }
+.option:nth-child(3) { margin-top: -90px; }
