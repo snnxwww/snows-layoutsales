@@ -4,8 +4,169 @@
 - DO NOT CLIP CODE OR USE THIS AS A TEMPLATE
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+* {
+    font-family: 'Catamaran' !important;
+}
+body {
+    background: url('https://static.lioden.com/images/dynamic/backgrounds/IsaloNationalPark.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    color: #535f1d;
+    font-size: 60px;
+    text-align: center;
+}
+h2 {
+    color: #535f1d;
+}
+
+.breadcrumb, .alert, table .top, table .bottom {
+    background: #535f1d !important;
+    color: #eae0d9;
+}
 .breadcrumb:after {
     content: 'CSS by Snow #553411';
     position: absolute;
     right: 125px;
+}
+
+table {
+    background: #dc9a6d;
+    border: none !important;
+    color: #eae0d9;
+}
+table a, .alert a, .breadcrumb a, .breadcrumb-item {
+    color: #eae0d9 !important;
+}
+.inner-table .left {
+    background: #535f1d;
+}
+.inner-table .right {
+    background: #5f6c25;
+}
+
+
+.contentbox1 {
+    background: url('https://static.lioden.com/images/dynamic/backgrounds/marulacraft.png');
+    background-size: cover;
+    height: 500px;
+    border: 10px solid #a5bbdc;
+    border-radius: 28px;
+    padding: 20px !important;
+    width: 90%;
+    margin-left: 5%;
+}
+.contentbox1:after {
+    content: '';
+    height: 300px;
+    width: 50%;
+    background: url('https://snnxwww.github.io/snows-layoutsales/CSS/497277/boxpagedoll3.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: -240px;
+}
+.contentbox1 .maincontent {
+    background: #bc9348;
+    border: 10px solid #a27e3d;
+    border-radius: 20px;
+    width: 40%;
+    height: 440px;
+    font-size: 16px;
+    padding: 20px;
+    color: #543b0f;
+    overflow-y: scroll;
+}
+
+
+.contentbox2 {
+    background: url('https://static.lioden.com/images/dynamic/backgrounds/Fish_River_Canyon.png');
+    background-size: cover;
+    height: 500px;
+    border: 10px solid #d9ad52;
+    border-radius: 28px;
+    padding: 20px !important;
+    width: 90%;
+    margin-left: 5%;
+}
+.contentbox2:after {
+    content: '';
+    height: 300px;
+    width: 50%;
+    background: url('https://snnxwww.github.io/snows-layoutsales/CSS/497277/boxpagedoll2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: -10%;
+    margin-top: -240px;
+}
+.contentbox2 .maincontent {
+    background: #6e7741;
+    border: 10px solid #51582f;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 60%;
+    height: 440px;
+    font-size: 16px;
+    padding: 20px;
+    color: #333627;
+    overflow-y: scroll;
+}
+
+.carousel {
+    display: flex;
+}
+
+.contentbox3 {
+    background: #a66f09;
+    background-size: cover;
+    height: 500px;
+    border: 10px solid #644000;
+    border-radius: 28px;
+    padding: 20px !important;
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+}
+.contentbox3 .leftcontent {
+    flex: 2;
+    height: 440px;
+    border: 10px solid #644000;
+    border-radius: 20px;
+    background: #dc9d24;
+    transition: 0.6s;
+}
+.contentbox3 .centercontent {
+    flex: 2;
+    height: 440px;
+    border: 10px solid #644000;
+    border-radius: 20px;
+    background: #dc9d24;
+    transition: 0.6s;
+}
+.contentbox3 .rightcontent {
+    flex: 2;
+    height: 440px;
+    border: 10px solid #644000;
+    border-radius: 20px;
+    background: #dc9d24;
+    transition: 0.6s;
+}
+
+.leftcontent:hover {
+    flex: 5;
+    filter: brightness(1.1);
+}
+.centercontent:hover {
+    flex: 5;
+    filter: brightness(1.1);
+}
+.rightcontent:hover {
+    flex: 5;
+    filter: brightness(1.1);
 }
