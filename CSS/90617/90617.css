@@ -86,6 +86,10 @@
     content: url('https://snnxwww.github.io/snows-layoutsales/CSS/90617/ladyodelia.png');
 }
 
+*:has(.featured-lion) img[src*='cave'] {
+    display: none;
+}
+
 .cave-grid:has(img[src*='unsortedlions']):after {
     content: 'UNSORTED';
     position: absolute;
@@ -207,7 +211,8 @@ input, select, textarea, .button, .progress-bar {
     border: 2px solid #fdfcf5;
     border-top: none;
 }
-*:has(img[src*='time-day']):has(img[src*='season-dry']) .navbar {
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .navbar,
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .navbar-toggle {
     background: #867ead;
 }
 *:has(img[src*='time-day']):has(img[src*='season-dry']) img[src*='logo-full-2.png'] {
@@ -249,6 +254,7 @@ input, select, textarea, .button, .progress-bar {
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .contentbox, 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table th,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table .top,
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .sub_menu,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table .bottom,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .feature,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table td[colspan='100%'],
@@ -259,7 +265,8 @@ input, select, textarea, .button, .progress-bar {
 }
 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .maincontent, 
-*:has(img[src*='time-day']):has(img[src*='season-dry']) table, 
+*:has(img[src*='time-day']):has(img[src*='season-dry']) table,
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .featured-lion,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .cave-grid, 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .mound-grid, 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table,
@@ -267,6 +274,7 @@ input, select, textarea, .button, .progress-bar {
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .col-md-4 div,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table .right_odd,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .comment,
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .sub_sub_menu,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .left:has(a[href*='account-settings.php']) {
     background: #cfabb9d5 !important;
     border-radius: 0px !important;
@@ -316,4 +324,12 @@ input, select, textarea, .button, .progress-bar {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/thelonging.png');
     object-fit: cover;
     height: 60px;
+}
+
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .member-online {
+    background: #ead3dc;
+}
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .member-offline,
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .badge {
+    background: #8a6171;
 }
