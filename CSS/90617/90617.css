@@ -165,6 +165,11 @@ input, select, textarea, .button, .progress-bar {
     box-shadow: none !important;
     border-radius: 0px !important;
     transition: 0.6s;
+    border: 2px solid #fff !important;
+}
+
+table:not(.inner-table), .panel, .alert, .breadcrumb, #commentBox, .cave-grid, .mound-grid, .col-md-4 div, .col-sm-4 div, .left:has(a[href*='account-settings']) {
+    border: 2px solid #fff !important;
 }
 
 
