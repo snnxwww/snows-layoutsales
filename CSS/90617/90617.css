@@ -85,3 +85,41 @@
     width: 100%; !important;
     content: url('https://snnxwww.github.io/snows-layoutsales/CSS/90617/ladyodelia.png');
 }
+
+.pagedoll  {
+    position: fixed;
+    bottom: 0;
+    right:  0;
+    z-index: 99;
+    max-width: 70%;
+    pointer-events: none;
+}
+
+div#commentBox:before {
+    content: '';
+    height: 500px;
+    width: 70%;
+    background: url('https://static.lioden.com/images/decors/male/over/snugglinglionessmaroon.png');
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 3;
+    left: 10px;
+    margin-top: -160px;
+    pointer-events: none;
+}
+#commentBox {
+    width: 70%;
+    margin-left: 30%;
+}
+
+@media(max-width: 1200px) {
+    div#commentBox:before {
+        margin-top: -80px;
+    }
+}
+@media(max-width: 676px) {
+    div#commentBox:before {
+        margin-top: -30px;
+    }
+}
