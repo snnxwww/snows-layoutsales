@@ -121,33 +121,43 @@
     pointer-events: none;
 }
 
-div#commentBox:before {
+#commentBox:before {
     content: '';
     height: 500px;
-    width: 70%;
+    width: 30%;
     background: url('https://static.lioden.com/images/decors/male/over/snugglinglionessmaroon.png');
     position: absolute;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
-    z-index: 3;
-    left: 10px;
-    margin-top: -160px;
+    z-index: 1;
+    left: 06px;
+    margin-top: -190px;
     pointer-events: none;
 }
 #commentBox {
     width: 70%;
     margin-left: 30%;
+    z-index: 2;
 }
-@media(max-width: 1200px) {
-    div#commentBox:before {
-        margin-top: -80px;
-    }
+
+.comment:first-of-type:before {
+    content: '';
+    height: 500px;
+    width: 70%;
+    background: url('https://static.lioden.com/images/decors/male/over/snugglinglionessmaroon.png');
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+    left: 06px;
+    margin-top: -190px;
+    pointer-events: none;
 }
-@media(max-width: 676px) {
-    div#commentBox:before {
-        margin-top: -30px;
-    }
+.comment {
+    width: 70%;
+    z-index: 12 !important;
 }
+
 table a {
     text-decoration: none !important;
 }
