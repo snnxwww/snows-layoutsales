@@ -1,0 +1,11 @@
+/* CSS by Snow #553411, commisssioned by #497277
+- CREDIT REMOVAL IS NOT PERMITTED
+- DO NOT RESELL OR REDISTRIBUTE
+- DO NOT CLIP CODE OR USE THIS AS A TEMPLATE
+*/
+
+.breadcrumb:after {
+    content: 'CSS by Snow #553411';
+    position: absolute;
+    right: 125px;
+}
