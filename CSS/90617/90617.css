@@ -82,7 +82,9 @@
     }
 }
 #lion_image {
-    width: 100%; !important;
+    width: 90%; !important;
+    margin-left: 5%;
+    border: 10px solid #848ebe !important;
     content: url('https://snnxwww.github.io/snows-layoutsales/CSS/90617/ladyodelia.png');
 }
 
@@ -110,6 +112,32 @@
     font-size: 18px;
     top: 10px;
     margin-left: -150px;
+}
+
+img[src*='cavedefault'], img[src*='caveunused'] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/shallow_waters.png');
+    object-fit: cover;
+    height: 120px;
+}
+img[src*='mound'] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/solitude_01.png');
+    object-fit: cover;
+    height: 80px;
+}
+img[src*='unsortedlions'] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/shipwrecks1.png');
+    object-fit: cover;
+    height: 60px;
+}
+img[src*='nesting'] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/denofsalvation.png');
+    object-fit: cover;
+    height: 60px;
+}
+img[src*='prideoverview'] {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/thelonging.png');
+    object-fit: cover;
+    height: 60px;
 }
 
 .pagedoll  {
@@ -182,6 +210,30 @@ table:not(.inner-table), .panel, .alert, .breadcrumb, #commentBox, .cave-grid, .
     border: 2px solid #fff !important;
 }
 
+.col-sm-6 {
+    width: 20%;
+}
+.col-sm-6 img {
+    content: url('https://static.lioden.com/images/items/Other/app_rosepink_markings.png');
+}
+
+.col-xs-6 .panel-body.small:after {
+    content: url('https://static.lioden.com/images/items/Other/app_rosepink_base.png');
+    position: absolute;
+    top: 20px;
+    transform: rotate(15deg);
+    right: -15px;
+    pointer-events: none;
+}
+.col-xs-5 .panel-body:before {
+    content: url('https://static.lioden.com/images/items/Other/cherryblossombase.png');
+    position: absolute;
+    top: 20px;
+    left: -30px;
+    transform: rotate(-5deg);
+    pointer-events: none;
+}
+
 
 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) body {
@@ -244,7 +296,7 @@ table:not(.inner-table), .panel, .alert, .breadcrumb, #commentBox, .cave-grid, .
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .main {
     background: #c58190aa;
     border: 2px solid #fdfcf5;
-    box-shadow: 2px -2px 2px #c58190;
+    box-shadow: 2px -2px 2px #713B43;
 }
 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .breadcrumb {
@@ -274,7 +326,7 @@ table:not(.inner-table), .panel, .alert, .breadcrumb, #commentBox, .cave-grid, .
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .feature,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table td[colspan='100%'],
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .panel {
-    background: #b0717ed5 !important;
+    background: #848ebe !important;
     box-shadow: none;
     border-radius: 0px;
 }
@@ -282,11 +334,8 @@ table:not(.inner-table), .panel, .alert, .breadcrumb, #commentBox, .cave-grid, .
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .maincontent, 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .featured-lion,
-*:has(img[src*='time-day']):has(img[src*='season-dry']) .cave-grid, 
-*:has(img[src*='time-day']):has(img[src*='season-dry']) .mound-grid, 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .col-sm-4 div,
-*:has(img[src*='time-day']):has(img[src*='season-dry']) .col-md-4 div,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table .right_odd,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .comment,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .sub_sub_menu,
@@ -311,40 +360,19 @@ table:not(.inner-table), .panel, .alert, .breadcrumb, #commentBox, .cave-grid, .
     border-radius: 0px !important;
 }
 
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .col-md-4 div,
+*:has(img[src*='time-day']):has(img[src*='season-dry']) .mound-grid {
+    background: #9f95b7 !important
+}
+
 *:has(img[src*='time-day']):has(img[src*='season-dry']) #fraSidebarChat {
     filter: grayscale(1) sepia(1) hue-rotate(-60deg) brightness(1) saturate(0.7)
 }
 
-*:has(img[src*='time-day']):has(img[src*='season-dry']) img[src*='cavedefault'], img[src*='caveunused'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/shallow_waters.png');
-    object-fit: cover;
-    height: 120px;
-}
-*:has(img[src*='time-day']):has(img[src*='season-dry']) img[src*='mound'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/solitude_01.png');
-    object-fit: cover;
-    height: 80px;
-}
-*:has(img[src*='time-day']):has(img[src*='season-dry']) img[src*='unsortedlions'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/shipwrecks1.png');
-    object-fit: cover;
-    height: 60px;
-}
-*:has(img[src*='time-day']):has(img[src*='season-dry']) img[src*='nesting'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/denofsalvation.png');
-    object-fit: cover;
-    height: 60px;
-}
-*:has(img[src*='time-day']):has(img[src*='season-dry']) img[src*='prideoverview'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/thelonging.png');
-    object-fit: cover;
-    height: 60px;
-}
-
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .member-online {
-    background: #ead3dc;
+    background: #f7c08c;
 }
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .member-offline,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .badge {
-    background: #8a6171;
+    background: #6d554f;
 }
