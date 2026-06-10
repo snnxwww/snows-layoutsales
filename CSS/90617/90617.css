@@ -115,27 +115,27 @@
 }
 
 img[src*='cavedefault'], img[src*='caveunused'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/shallow_waters.png');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/febcave.png');
     object-fit: cover;
     height: 120px;
 }
 img[src*='mound'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/solitude_01.png');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/japanese_dragon.png');
     object-fit: cover;
     height: 80px;
 }
 img[src*='unsortedlions'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/shipwrecks1.png');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/zaxmorningmarshlands.png');
     object-fit: cover;
     height: 60px;
 }
 img[src*='nesting'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/denofsalvation.png');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/romantic_hotspring.png');
     object-fit: cover;
     height: 60px;
 }
 img[src*='prideoverview'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/thelonging.png');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/romanticwaterfall.png');
     object-fit: cover;
     height: 60px;
 }
@@ -167,6 +167,12 @@ img[src*='prideoverview'] {
     margin-left: 30%;
     z-index: 2;
 }
+#makeComment input {
+    width: 9%;
+}
+#makeComment input[type='text'] {
+    width: 90%;
+}
 
 .comment:first-of-type:before {
     content: '';
@@ -190,6 +196,14 @@ table a {
     text-decoration: none !important;
 }
 
+.cave-grid, .mound-grid {
+    opacity: 90%;
+    transition: 0.4s;
+}
+.cave-grid:hover, .mound-grid:hover {
+    opacity: 100%;
+}
+
 .breadcrumb:after {
     content: 'CSS by Snow #553411';
     position: absolute;
@@ -210,18 +224,43 @@ table:not(.inner-table), .panel, .alert, .breadcrumb, #commentBox, .cave-grid, .
     border: 2px solid #fff !important;
 }
 
-.col-sm-6 {
+.col-sm-6.dynastylist {
     width: 20%;
 }
-.col-sm-6 img {
-    content: url('https://static.lioden.com/images/items/Other/app_rosepink_markings.png');
+
+img[src*='beetle-silver'] {
+    content: url('https://static.lioden.com/images/items/Other/YohimbeBark.png');
+    width: 20px;
+    height: 20px;
+}
+img[src*='beetle-gold'] {
+    content: url('https://static.lioden.com/images/items/Other/gmocow.png');
+    width: 20px;
+    height: 20px;
+}
+
+
+.dynastylist img[src*='den_ancestors'] {
+    content: url('https://static.lioden.com/images/items/Other/appardorbase.png');
+}
+.dynastylist img[src*='den_ancestorsfem'] {
+    content: url('https://static.lioden.com/images/items/Other/cherryblossombase.png');
+}
+.dynastylist img[src*='den_achievements'] {
+    content: url('https://static.lioden.com/images/items/Other/appardormarkings.png');
+}
+.dynastylist img[src*='den_showcase'] {
+    content: url('https://static.lioden.com/images/items/Other/app-marks-flamingo.png');
+}
+.dynastylist img[src*='den_beetle'] {
+    content: url('https://static.lioden.com/images/items/Other/MaroonFour.png');
 }
 
 .col-xs-6 .panel-body.small:after {
-    content: url('https://static.lioden.com/images/items/Other/app_rosepink_base.png');
+    content: url('https://static.lioden.com/images/items/Other/app_peachbase.png');
     position: absolute;
-    top: 20px;
-    transform: rotate(15deg);
+    top: 25px;
+    transform: rotate(-10deg);
     right: -15px;
     pointer-events: none;
 }
@@ -229,11 +268,19 @@ table:not(.inner-table), .panel, .alert, .breadcrumb, #commentBox, .cave-grid, .
     content: url('https://static.lioden.com/images/items/Other/cherryblossombase.png');
     position: absolute;
     top: 20px;
-    left: -30px;
-    transform: rotate(-5deg);
+    right: -15px;
+    transform: rotate(5deg);
     pointer-events: none;
 }
-
+.col-xs-6 .panel-body.small:before {
+    content: url('https://static.lioden.com/images/items/Other/appardorbase.png');
+    position: absolute;
+    top: 150px;
+    right: -15px;
+    transform: rotate(-5deg);
+    pointer-events: none;
+    z-index: 2;
+}
 
 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) body {
