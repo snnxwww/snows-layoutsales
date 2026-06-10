@@ -67,7 +67,7 @@ h2, h3, .page-description {
     border: none !important;
     box-shadow: none !important
 }
-table .left.b, input, select, textarea, .button {
+table .left.b, input, select, textarea, .button, .progress-bar {
     background: #6f7f25 !important;
     color: #eae0d9 !important;
     text-shadow: none !important;
@@ -78,6 +78,13 @@ table .left.b, input, select, textarea, .button {
 input:hover, select:hover, textarea:hover, .button:hover {
     filter: drop-shadow(0px 0px 2px #eae0d9);
 }
+.progress  {
+    background: #83933a;
+}
+.progress div {
+    color: #eae0d9 !important;
+}
+
 .breadcrumb:after {
     content: 'CSS by Snow #553411';
     position: absolute;
@@ -107,6 +114,8 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
 #fraSidebarChat {
     filter: grayscale(1) sepia(0.3) hue-rotate(60deg) brightness(0.9) contrast(1)
 }
+
+
 
 
 .contentbox1 {
@@ -229,3 +238,4 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
     flex: 5;
     filter: brightness(1.1);
 }
+
