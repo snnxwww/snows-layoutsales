@@ -14,19 +14,69 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+.col-md-9 {
+    background: none;
+}
+.main {
+    background: #9c9c41;
+}
+
+.topbar {
+    background: #424c17;
+    color: #eae0d9 !important;
+}
+.topbar a {
+    color: #eae0d9 !important;
+}
+
+.navbar {
+    background: #535f1d;
+}
+.navbar a:not(:has(img)) {
+    background: #535f1d !important;
+    color: #eae0d9 !important;
+    transition: 0.4s;
+}
+.navbar a {
+    transition: 0.4s;
+}
+.navbar a:hover {
+    filter: drop-shadow(0px 0px 4px #eae0d9);
+    z-index: 2
+}
+.navbar img {
+    filter: hue-rotate(60deg) saturate(0.4) brightness(0.9)
+}
+
 
 h1 {
     color: #535f1d;
     font-size: 60px;
     text-align: center;
 }
-h2 {
-    color: #535f1d;
+h2, h3, .page-description {
+    color: #535f1d !important;
+}
+.panel a {
+    color: #eae0d9 !important;
 }
 
-.breadcrumb, .alert, table .top, table .bottom {
+.breadcrumb, .alert, table .top, table th, table .bottom, .panel {
     background: #535f1d !important;
     color: #eae0d9;
+    border: none !important;
+    box-shadow: none !important
+}
+table .left.b, input, select, textarea, .button {
+    background: #6f7f25 !important;
+    color: #eae0d9 !important;
+    text-shadow: none !important;
+    border: none;
+    box-shadow: none;
+    transition: 0.4s;
+}
+input:hover, select:hover, textarea:hover, .button:hover {
+    filter: drop-shadow(0px 0px 2px #eae0d9);
 }
 .breadcrumb:after {
     content: 'CSS by Snow #553411';
@@ -47,6 +97,11 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
 }
 .inner-table .right {
     background: #5f6c25;
+}
+
+.page-description, table:not(.inner-table) {
+    border: 2px solid #535f1d !important;
+    border-radius: 0px !important;
 }
 
 
