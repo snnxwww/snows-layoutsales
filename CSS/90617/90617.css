@@ -123,9 +123,11 @@ img[src*='mound'] {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/japanese_dragon.png');
     object-fit: cover;
     height: 80px;
+    width: 130px;
 }
 img[src*='unsortedlions'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/zaxmorningmarshlands.png');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/RuacanaFalls.png');
+    transform: scaleX(-1);
     object-fit: cover;
     height: 60px;
 }
@@ -197,7 +199,7 @@ table a {
 }
 
 .cave-grid, .mound-grid {
-    opacity: 90%;
+    opacity: 80%;
     transition: 0.4s;
 }
 .cave-grid:hover, .mound-grid:hover {
@@ -241,23 +243,29 @@ img[src*='beetle-gold'] {
 
 
 .dynastylist img[src*='den_ancestors'] {
-    content: url('https://static.lioden.com/images/items/Other/appardorbase.png');
+    content: url('https://static.lioden.com/images/items/Other/appardormane.png');
 }
 .dynastylist img[src*='den_ancestorsfem'] {
-    content: url('https://static.lioden.com/images/items/Other/cherryblossombase.png');
+    content: url('https://static.lioden.com/images/items/Other/app_rosepink_markings.png');
+    transform: scaleX(-1)
 }
 .dynastylist img[src*='den_achievements'] {
-    content: url('https://static.lioden.com/images/items/Other/appardormarkings.png');
+    content: url('https://static.lioden.com/images/items/Other/app_peach_marks.png');
 }
 .dynastylist img[src*='den_showcase'] {
-    content: url('https://static.lioden.com/images/items/Other/app-marks-flamingo.png');
+    content: url('https://static.lioden.com/images/items/Other/sweetmerlot.png');
 }
 .dynastylist img[src*='den_beetle'] {
-    content: url('https://static.lioden.com/images/items/Other/MaroonFour.png');
+    content: url('https://static.lioden.com/images/items/Other/app-marks-flamingo.png');
+    transform: scaleX(-1)
 }
 
 .col-xs-6 .panel-body.small:after {
-    content: url('https://static.lioden.com/images/items/Other/app_peachbase.png');
+    content: '';
+    height: 110px;
+    width: 110px;
+    background: url('https://static.lioden.com/images/items/Other/app_peachbase.png');
+    background-size: cover;
     position: absolute;
     top: 25px;
     transform: rotate(-10deg);
@@ -284,7 +292,7 @@ img[src*='beetle-gold'] {
 
 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) body {
-    background: url('https://snnxwww.github.io/snows-layoutsales/CSS/90617/dry-day.jpg');
+    background: url('https://i.ibb.co/dJb03wRH/83ce63ac59d8f2b4453894b2eaed1b08.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
