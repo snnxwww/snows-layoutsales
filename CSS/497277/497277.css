@@ -104,6 +104,10 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
     border-radius: 0px !important;
 }
 
+#fraSidebarChat {
+    filter: grayscale(1) sepia(0.3) hue-rotate(60deg) brightness(0.9) contrast(1)
+}
+
 
 .contentbox1 {
     background: url('https://static.lioden.com/images/dynamic/backgrounds/marulacraft.png');
