@@ -102,6 +102,7 @@
 .cave-grid:has(img[src*='nesting']):after {
     content: 'NESTING';
     position: absolute;
+    font-weight: bold;
     font-size: 18px;
     top: 10px;
     margin-left: -150px;
