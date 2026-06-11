@@ -201,6 +201,17 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
     gap: 15px;
     font-size: 16px;
 }
+.contentbox3:after {
+    content: '';
+    height: 280px;
+    width: 50%;
+    background: url('https://snnxwww.github.io/snows-layoutsales/CSS/497277/boxpagedoll1.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 240px;
+}
 .contentbox3 .leftcontent {
     flex: 2;
     height: 440px;
@@ -239,11 +250,12 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
     filter: brightness(1.1);
 }
 
+
 .pagedoll {
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 300px;
+    width: 250px;
     max-width: 40% !important;
     z-index: 99
 }
