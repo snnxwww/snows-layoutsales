@@ -239,3 +239,11 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
     filter: brightness(1.1);
 }
 
+.pagedoll {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    max-width: 40% !important;
+    z-index: 99
+}
