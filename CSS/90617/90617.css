@@ -341,7 +341,7 @@ img[src*='beetle-gold'] {
     background: #4C4A4F;
 }
 *:has(img[src*='time-day']):has(img[src*='season-dry']) img[src*='logo-full-2.png'] {
-    filter: hue-rotate(-50deg) saturate(0.4) brightness(1.1)
+    filter: hue-rotate(-50deg) saturate(0.4) brightness(1) grayscale(0.5)
 }
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .navbar a:not(:has(img)) {
     background: #00000000 !important;
@@ -358,12 +358,12 @@ img[src*='beetle-gold'] {
 }
 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .breadcrumb {
-    background: #e3bdb5d5;
+    background: #e1c9c4d5;
     border-radius: 0px;
 }
 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .alert {
-    background: #d7a397d5;
+    background: #ddb1a7d5;
     border: none;
     border-radius: 0px;
 }
