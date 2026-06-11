@@ -84,7 +84,7 @@
 #lion_image {
     width: 90%; !important;
     margin-left: 5%;
-    border: 10px solid #848ebe !important;
+    border: 10px solid #4C4A4F !important;
     content: url('https://snnxwww.github.io/snows-layoutsales/CSS/90617/ladyodelia.png');
 }
 
@@ -121,10 +121,9 @@ img[src*='cavedefault'], img[src*='caveunused'] {
     height: 120px;
 }
 img[src*='mound'] {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/japanese_dragon.png');
+    content: url('https://i.ibb.co/Y46bd11B/beetleskin.png');
     object-fit: cover;
     height: 80px;
-    width: 130px;
 }
 img[src*='unsortedlions'] {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/RuacanaFalls.png');
@@ -230,6 +229,9 @@ table:not(.inner-table), .panel, .alert, .breadcrumb, #commentBox, .cave-grid, .
 .col-sm-6.dynastylist {
     width: 20%;
 }
+.dynastylist div {
+    height: 200px;
+}
 
 img[src*='beetle-silver'] {
     content: url('https://static.lioden.com/images/items/Other/YohimbeBark.png');
@@ -293,7 +295,7 @@ img[src*='beetle-gold'] {
 
 
 *:has(img[src*='time-day']):has(img[src*='season-dry']) body {
-    background: url('https://i.ibb.co/dJb03wRH/83ce63ac59d8f2b4453894b2eaed1b08.jpg');
+    background: url('https://i.ibb.co/cK24twpp/2560x1440.jpg');
     background-attachment: fixed;
     background-size: cover;
 }
@@ -382,7 +384,7 @@ img[src*='beetle-gold'] {
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .feature,
 *:has(img[src*='time-day']):has(img[src*='season-dry']) table td[colspan='100%'],
 *:has(img[src*='time-day']):has(img[src*='season-dry']) .panel {
-    background: #848ebe !important;
+    background: #4C4A4F !important;
     box-shadow: none;
     border-radius: 0px;
 }
