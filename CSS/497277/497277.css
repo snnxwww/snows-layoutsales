@@ -212,40 +212,17 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
     margin-left: 45%;
     margin-top: 240px;
 }
-.contentbox3 .leftcontent {
+.contentbox3 .leftcontent, .contentbox3 .centercontent, .contentbox3 .rightcontent {
     flex: 2;
     height: 440px;
     border: 10px solid #644000;
     border-radius: 20px;
     background: #dc9d24;
-    transition: 0.6s;
-}
-.contentbox3 .centercontent {
-    flex: 2;
-    height: 440px;
-    border: 10px solid #644000;
-    border-radius: 20px;
-    background: #dc9d24;
-    transition: 0.6s;
-}
-.contentbox3 .rightcontent {
-    flex: 2;
-    height: 440px;
-    border: 10px solid #644000;
-    border-radius: 20px;
-    background: #dc9d24;
+    color: #3b2806;
     transition: 0.6s;
 }
 
-.leftcontent:hover {
-    flex: 5;
-    filter: brightness(1.1);
-}
-.centercontent:hover {
-    flex: 5;
-    filter: brightness(1.1);
-}
-.rightcontent:hover {
+.leftcontent:hover, .centercontent:hover, .rightcontent:hover {
     flex: 5;
     filter: brightness(1.1);
 }
@@ -259,3 +236,67 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
     max-width: 40% !important;
     z-index: 99
 }
+
+
+.carousel {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+}
+
+.carousel::before,
+.carousel::after {
+    content: "";
+    height: 100%;  
+    width: 15%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.carousel:before {
+  left: 0;
+  background: linear-gradient(to right, #9c9c41, transparent);
+}
+.carousel:after {
+  right: 0;
+  background: linear-gradient(to left, #9c9c41, transparent);
+}
+
+.track {
+  display: flex;
+  width: max-content; 
+  animation: scroll 15s linear infinite;
+}
+
+.carousel-item {
+    flex-shrink: 0;
+    width: 200px;
+    height: 100px;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 10px solid #644000;
+    border-radius: 20px;
+    background: #dc9d24;
+    color: #3b2806;
+}
+
+.track:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
