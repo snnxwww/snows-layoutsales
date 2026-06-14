@@ -285,11 +285,15 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
     border-radius: 20px;
     background: #dc9d24;
     color: #3b2806;
+    transition: 0.4s
 }
 .carousel-item img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+.carousel-item:hover {
+    transform: scale(1.025)
 }
 
 .track:hover {
