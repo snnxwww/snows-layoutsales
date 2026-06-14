@@ -576,7 +576,7 @@ img[src*='beetle-gold'] {
 }
 
 *:has(img[src*='time-night']):has(img[src*='season-dry']) #fraSidebarChat {
-    filter: grayscale(1) sepia(1) hue-rotate(-60deg) brightness(1) saturate(0.4)
+    filter: grayscale(1) sepia(1) hue-rotate(-60deg) brightness(0.9) saturate(0.2)
 }
 
 *:has(img[src*='time-night']):has(img[src*='season-dry']) .member-online {
