@@ -309,3 +309,87 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
   }
 }
 
+.leaf-container {
+	position: fixed; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999 !important;
+	pointer-events: none;
+}
+
+.leaf1 {
+	position: absolute !important;
+	height: 100px;
+	width: 100px;
+	background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/leaf1.png?raw=true');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	top: 0;
+	offset-path: path("M -50 250 Q 150 50 300 250 C 500 600 500 0 300 150 Q 10 450 2000 250");
+	offset-rotate: auto 90deg; 
+	animation-delay: 2s;
+	animation: move-on-path 17s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, wind-drift 17s linear infinite;
+	z-index: 99999 !important;
+}
+.leaf2 {
+	position: absolute !important;
+	height: 100px;
+	width: 100px;
+	background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/leaf2.png?raw=true');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	top: 0;
+	offset-path: path("M -100 200 C 300 -50 600 600 2000 300");
+	offset-rotate: auto 90deg; 
+	animation-delay: 1s;
+	animation: move-on-path 15s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, leaf-spin 15s linear infinite;
+	z-index: 99999 !important;
+}
+.leaf3 {
+	position: absolute !important;
+	height: 100px;
+	width: 100px;
+	background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/leaf3.png?raw=true');
+	background-size: 90%;
+	background-repeat: no-repeat;
+	top: 0;
+	offset-path: path("M -100 200 C 300 -50 600 600 2000 300");
+	offset-rotate: auto 90deg; 
+	animation: move-on-path 18s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, leaf-spin 18s linear infinite;
+	z-index: 99999 !important;
+}
+.leaf4 {
+	position: absolute !important;
+	height: 100px;
+	width: 100px;
+	background: url('https://github.com/snnxwww/snows-csshtmllayouts/blob/main/16-497277/leaf4.png?raw=true');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	top: 0;
+	offset-path: path("M -50 250 Q 150 50 300 250 C 500 600 500 0 300 150 Q 10 450 2000 300");
+	offset-rotate: auto 90deg; 
+	animation: move-on-path 20s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, wind-drift 20s linear infinite;
+	z-index: 99999 !important;
+}
+
+
+@keyframes move-on-path {
+  0% { offset-distance: 0%; opacity: 0; }
+  5% { opacity: 1; } 
+  50% { opacity: 1; }
+  55% { offset-distance: 100%; opacity: 0; }
+  100% { offset-distance: 100%; opacity: 0; } 
+}
+
+@keyframes wind-drift {
+	0% { transform: rotate(0deg); }
+	30% { transform: rotate(0deg); }
+	55% { transform: rotate(-1080deg); } 
+}
+@keyframes leaf-spin {
+	0% { transform: rotate(0deg); }
+	5% { transform: rotate(0deg); }
+	55% { transform: rotate(-1080deg); } 
+}
