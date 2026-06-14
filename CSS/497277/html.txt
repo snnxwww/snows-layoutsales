@@ -2,13 +2,20 @@
 
 <div class="contentbox1"><div class="maincontent">text</div></div>
 
-<div class="carousel"><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div></div>
+<div class="carousel"><div class="track"><div class="carousel-item">item 1</div><div class="carousel-item">item 2</div><div class="carousel-item">item 3</div><div class="carousel-item">item 4</div><div class="carousel-item">item 5</div><div class="carousel-item">item 6</div><div class="carousel-item">item 1</div><div class="carousel-item">item 2</div><div class="carousel-item">item 3</div><div class="carousel-item">item 4</div><div class="carousel-item">item 5</div><div class="carousel-item">item 6</div></div></div>
+
 
 <div class="contentbox2"><div class="maincontent">text</div></div>
 
-<div class="carousel"><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div><div class="carouselitem"><img src="https://blocks.astratic.com/img/general-img-portrait.png" width="100%"></div></div>
-
+<div class="carousel"><div class="track"><div class="carousel-item">item 1</div><div class="carousel-item">item 2</div><div class="carousel-item">item 3</div><div class="carousel-item">item 4</div><div class="carousel-item">item 5</div><div class="carousel-item">item 6</div><div class="carousel-item">item 1</div><div class="carousel-item">item 2</div><div class="carousel-item">item 3</div><div class="carousel-item">item 4</div><div class="carousel-item">item 5</div><div class="carousel-item">item 6</div></div></div>
 
 <div class="contentbox3"><div class="leftcontent">text</div><div class="centercontent">text</div><div class="rightcontent">text</div></div>
+
+<div class="leaf-container"><br>
+<div class="leaf1"></div><br>
+<div class="leaf2"></div><br>
+<div class="leaf3"></div><br>
+<div class="leaf4"></div><br>
+</div>
 
 <a href="https://discord.gg/W6UEtqdNNs"><img class="pagedoll" src="https://snnxwww.github.io/snows-layoutsales/CSS/497277/pagedoll.png"></a>
