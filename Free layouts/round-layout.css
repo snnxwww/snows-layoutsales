@@ -134,3 +134,149 @@ table img {
 td.bottom[colspan='3'] {
     border-radius: 16px !important;
 }
+td.right_odd:has(img), td.text-right:has(img) {
+    border-bottom-right-radius: 18px !important;
+    border-bottom-left-radius: 18px !important;
+}/* CSS Layout by Snow #553411
+
+- Credit removal is not permitted
+- These layouts may only be used with codes made by #553411
+- Do not clip sections of code to use elsewhere, whether it is for a free, commissioned, or personal CSS
+
+*/
+
+.breadcrumb:after {
+    content: 'CSS by Snow #553411';
+    position: absolute;
+    right: 120px;
+}
+
+.topbar {
+    border-bottom-left-radius: 18px !important;
+    border-bottom-right-radius: 18px !important;
+}
+.navbar {
+    border-top-left-radius: 18px !important;
+    border-top-right-radius: 18px !important;
+}
+.navbar a {
+    border-radius: 10px !important;
+}
+.main{
+    border-radius: 18px !important;
+}
+.col-md-9 {
+    border-top-left-radius: 18px !important;
+    border-bottom-left-radius: 18px !important;
+}
+@media(max-width: 991px) {
+    .topbar {
+        border-radius: 0px !important;
+    }
+    .navbar {
+        border-radius: 0px !important
+    }
+    .col-md-9 {
+        border-top-left-radius: 0px !important;
+        border-bottom-left-radius: 0px !important;
+    }
+}
+.breadcrumb, .alert {
+    border-radius: 16px !important;
+}
+input, .button, textarea, select {
+    border-radius: 12px !important;
+}
+
+.contentheader {
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+}
+.footer {
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
+.staticbox-layout .maincontent, .trisectionedstaticbox-layout .maincontent, .expander-layout .maincontent, .topcontent, .bottomcontent, .centercontent, .leftcentercontent, .rightcentercontent, .disectionedstaticbox-layout .leftcontent, .trisectionedstaticbox-layout .leftcontent, .disectionedexpander-layout .leftcontent, .trisectionedexpander-layout .leftcontent, .quadsectionedexpander-layout .leftcontent, .disectionedstaticbox-layout .rightcontent, .trisectionedstaticbox-layout .rightcontent, .disectionedexpander-layout .rightcontent, .trisectionedexpander-layout .rightcontent, .quadsectionedexpander-layout .rightcontent {
+    border-radius: 16px !important;
+}
+#commentBox {
+    border-radius: 16px !important;
+}
+.comment img {
+    border-radius: 20px !important;
+}
+#about img, #player img {
+    border-radius: 100px !important;
+}
+.member-online, .member-offline {
+    border-radius: 10px !important;
+}
+.inner-table .left {
+    border-top-left-radius: 10px !important;
+    border-bottom-left-radius: 10px !important;
+}
+.inner-table .right {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+}
+.cave-grid, .mound-grid {
+    border-radius: 18px !important;
+}
+table th, table .top {
+    border-top-left-radius: 16px !important;
+    border-top-right-radius: 16px !important;
+}
+table .bottom {
+    border-bottom-left-radius: 16px !important;
+    border-bottom-right-radius: 16px !important;
+}
+table, .feature, table th:has(a[href*='#']), .col-sm-4 div, .col-sm-6 div, .left:has(a[href*='account-settings']) {
+    border-radius: 16px !important;
+}
+#sparring .right_odd {
+    border-bottom-right-radius: 17px !important;
+}
+table img {
+    border-radius: 16px !important;
+}
+#editdetailspanel td.left.b {
+    border-top-left-radius: 16px !important;
+}
+.panel {
+    border-radius: 16px !important
+}
+.progress {
+    border-radius: 10px !important
+}
+#chatMessageContainer {
+    border-radius: 16px !important;
+}
+.featured-lion {
+    border-radius: 16px !important;
+}
+*:has(.featured-lion) th[colspan='4'] {
+    border-top-right-radius: 0px !important;
+}
+*:has(.featured-lion) th[colspan='2'] {
+    border-top-left-radius: 0px !important;
+}
+*:has(.featured-lion) th[colspan='2']:has(.floatright) {
+     border-top-left-radius: 16px !important;
+}
+.sub_menu {
+    border-radius: 16px !important
+}
+.sub_sub_menu {
+    border-bottom-right-radius: 16px !important;
+    border-bottom-left-radius: 68px !important;
+}
+td.bottom[colspan='3'] {
+    border-radius: 16px !important;
+}
+td.right_odd:has(img), td.text-right:has(img) {
+    border-bottom-right-radius: 18px !important;
+    border-bottom-left-radius: 18px !important;
+}
+#label_currentChannel, #fraChatChannelMenu {
+    border-radius: 16px !important;
+}
