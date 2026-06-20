@@ -38,6 +38,12 @@ body {
 .navbar img {
     filter: brightness(0.4) saturate(3) sepia(1) hue-rotate(-20deg)
 }
+table .right_odd {
+    background: none !important;
+}
+table a, .panel a, .alert a, .breadcrumb a, .boxsection a {
+    display: inline-block;
+}
 .alert {
     border: none;
 }
@@ -79,7 +85,8 @@ input, .button, select, textarea {
     transition: 0.4s;
 }
 .navbar a:hover, a:hover, input:hover, .button:hover, select:hover, textarea:hover {
-    filter: drop-shadow(0px 0px 4px #fff)
+    color: #cdc7c0 !important;
+    transform: translateY(-2px)
 }
 
 .progress {
@@ -166,9 +173,6 @@ img[src*='prideoverviewbanner'] {
 }
 .cave-grid:hover, .mound-grid:hover {
     opacity: 1;
-}
-.col-md-4 a:hover {
-    filter: drop-shadow(0px 0px 0px #000);
 }
 #fraCaveList .col-md-4 img {
     content: url('https://static.lioden.com/images/dynamic/backgrounds/creepy_shadow.png');
