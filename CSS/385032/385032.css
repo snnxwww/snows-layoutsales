@@ -1,1 +1,211 @@
+/* CSS Layout by Snow #553411
 
+- Credit removal is not permitted
+- These layouts may ONLY be used with codes made by #553411
+- Do not clip sections of code to use elsewhere, whether it is for a free, commissioned, or personal CSS
+- Failure to comply with my terms will result in a block
+
+*/
+
+* {
+    color: #e2dad1 !important;
+}
+
+body {
+    background: url('https://snnxwww.github.io/snows-layoutsales/CSS/385032/bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.breadcrumb:after {
+    content: 'CSS by Snow #553411';
+    position: absolute;
+    right: 120px;
+}
+
+.topbar {
+    background: #221817;
+    border: 2px solid #221817;
+    border-top: none;
+}
+.navbar, .breadcrumb, .alert, table th, table .top, table .bottom, .dynastylist div, .col-sm-4 div, .left:has(a[href*='account-settings']), .panel {
+    background: #221817 !important;
+    box-shadow: none !important;
+    border: none;
+}
+.navbar a {
+    background: none !important;
+}
+.navbar img {
+    filter: brightness(0.4) saturate(3) sepia(1) hue-rotate(-20deg)
+}
+.alert {
+    border: none;
+}
+table .left.b, td[style='height:5px; padding: 0;'] {
+    background: #403230 !important;
+}
+table:not(.inner-table), .panel {
+    border: 1px solid #221817 !important;
+}
+.inner-table .left {
+    background: #694129 !important;
+}
+.inner-table .right {
+    background: #865c43 !important;
+}
+
+.col-md-9 {
+    background: none;
+}
+.main {
+    background: #36242080;
+    border: 2px solid #221817;
+}
+
+.member-online {
+    background: #d5a182;
+}
+.member-offline {
+    background: #361a09;
+}
+
+input, .button, select, textarea {
+    background: #865c43 !important;
+    border: none !important;
+    text-shadow: none !important;
+}
+
+.navbar a, a, input, .button, select, textarea {
+    transition: 0.4s;
+}
+.navbar a:hover, a:hover, input:hover, .button:hover, select:hover, textarea:hover {
+    filter: drop-shadow(0px 0px 4px #fff)
+}
+
+.progress {
+    background: #865c4390;
+}
+.progress-bar {
+    background: #865c43;
+}
+div#lion_image img {
+    display: none
+}
+div#lion_image:after {
+    content: '';
+    height: 300px;
+    width: 340px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -40px;
+    margin-top: -30px;
+    background: url('https://static.lioden.com/images/cds/adult/female/default/any/0/19/19009.1780980829.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#label_currentChannel, #chatMessagePinned, #fraChatChannelMenu {
+    background-color: #221817 !important;
+    border: 1px solid #221817 !important;
+}
+.channelSwitcher.active, .channelSwitcher:hover {
+    background-color: #493a39 !important;
+}
+.s-chat-message {
+    background-color: #5b3f2f !important;
+    border: 1px solid #221817 !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+.s-chat-message_timestamp {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+#chatMessageContainer {
+    border: 1px solid #221817 !important;
+}
+
+.boxsection {
+    display: flex;
+    gap: 25px;
+}
+.leftcontent {
+    flex: 1;
+    background: #694129;
+    height: 250px;
+    text-align: left;
+    padding: 10px;
+}
+.rightcontent {
+    flex: 1;
+    border: 12px solid #221817;
+    height: 250px;
+    text-align: left;
+    padding: 10px;
+}
+
+img[src*='unsortedlionsbanner'] {
+    content: url('https://static.lioden.com/images/items/Other/app_blemishmarks.png');
+    width: 100px;
+}
+img[src*='nesting'] {
+    content: url('https://static.lioden.com/images/items/Amusement/abandonednest.png');
+    width: 100px;
+}
+img[src*='prideoverviewbanner'] {
+    content: url('https://static.lioden.com/images/items/Other/app_blemishmarks.png');
+    width: 100px;
+    transform: scaleX(-1)
+}
+.cave-grid, .mound-grid {
+    background-color: #5b3f2f !important;
+    border: 1px solid #221817 !important;
+    opacity: 0.8;
+    transition: 0.4s
+}
+.cave-grid:hover, .mound-grid:hover {
+    opacity: 1;
+}
+.col-md-4 a:hover {
+    filter: drop-shadow(0px 0px 0px #000);
+}
+#fraCaveList .col-md-4 img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/creepy_shadow.png');
+    height: 250px;
+    object-fit: cover;
+}
+#fraCaveList .col-md-4:nth-child(1) img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/creepy_shadow.png');
+    height: 250px;
+    object-fit: cover;
+}
+#fraCaveList .col-md-4:nth-child(2) img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/AltarofRa.png');
+    height: 250px;
+    object-fit: cover;
+}
+#fraCaveList .col-md-4:nth-child(3) img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/sandstorm2.png');
+    height: 250px;
+    object-fit: cover;
+}
+#fraCaveList .col-md-4:nth-child(4) img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/ashlands.png');
+    height: 250px;
+    object-fit: cover;
+}
+#fraCaveList .col-md-4:nth-child(5) img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/burningsahel.png');
+    height: 250px;
+    object-fit: cover;
+}
+#fraCaveList .col-md-4:nth-child(6) img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/deadforest.png');
+    height: 250px;
+    object-fit: cover;
+}
+.mound-grid img {
+    content: url('https://static.lioden.com/images/items/Beetles/EVENTBEETLE_beetlebasicryptuscostalis.png');
+    object-fit: cover;
+}
