@@ -170,7 +170,7 @@ img[src*='prideoverviewbanner'] {
     width: 100px;
     transform: scaleX(-1)
 }
-.cave-grid, .mound-grid {
+.cave-grid, .mound-grid, .feature {
     background-color: #5b3f2f !important;
     border: 1px solid #221817 !important;
     opacity: 0.8;
