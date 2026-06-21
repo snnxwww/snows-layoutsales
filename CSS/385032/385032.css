@@ -88,6 +88,9 @@ input, .button, select, textarea {
     color: #cdc7c0 !important;
     transform: translateY(-2px)
 }
+#about a:has(img) {
+    transform: none;
+}
 
 .progress {
     background: #865c4390;
@@ -103,14 +106,14 @@ div#lion_image:after {
     height: 300px;
     width: 340px;
     position: absolute;
-    top: 0;
-    left: 0;
-    margin-left: -40px;
-    margin-top: -30px;
+    top: 0 !important;
+    left: 0 !important;
+    margin-top: -30px !important;
     background: url('https://static.lioden.com/images/cds/adult/female/default/any/0/19/19009.1780980829.png');
     background-size: contain;
     background-repeat: no-repeat;
 }
+
 
 #label_currentChannel, #chatMessagePinned, #fraChatChannelMenu {
     background-color: #221817 !important;
