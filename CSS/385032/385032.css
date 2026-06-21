@@ -140,7 +140,7 @@ div#lion_image:after {
 .leftcontent {
     flex: 1;
     background: #5b3f2f;
-    height: 250px;
+    height: 280px;
     text-align: left;
     padding: 10px;
     border-radius: 8px;
@@ -150,7 +150,7 @@ div#lion_image:after {
     flex: 1;
     border: 12px solid #3f2c20;
     background: #5b3f2f;
-    height: 250px;
+    height: 280px;
     text-align: left;
     padding: 10px;
     border-radius: 8px;
