@@ -141,7 +141,6 @@ div#lion_image:after {
     flex: 1;
     background: #5b3f2f;
     height: 280px;
-    text-align: left;
     padding: 10px;
     border-radius: 8px;
     overflow: scroll;
@@ -151,7 +150,6 @@ div#lion_image:after {
     border: 12px solid #3f2c20;
     background: #5b3f2f;
     height: 280px;
-    text-align: left;
     padding: 10px;
     border-radius: 8px;
     overflow: scroll;
