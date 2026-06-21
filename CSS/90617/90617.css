@@ -927,7 +927,7 @@ img[src*='beetle-gold'] {
     offset-rotate: auto;
 	transform-origin: left center;
     transform: scaleX(calc(100vw / 800));
-    animation: travel 9s linear infinite;
+    animation: travel 12s linear infinite;
  }
  
  .particle-t2 {
@@ -940,7 +940,7 @@ img[src*='beetle-gold'] {
     offset-rotate: auto;
 	transform-origin: left center;
     transform: scaleX(calc(100vw / 800));
-    animation: travel 5s linear infinite;
+    animation: travel 9s linear infinite;
  }
 
  @keyframes travel {
