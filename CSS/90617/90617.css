@@ -948,58 +948,32 @@ img[src*='beetle-gold'] {
     100% { offset-distance: 100%; left: 100%; }
  }
   
-.particle-t1:nth-child(1) { animation-delay: 3.1s; margin-top: 55%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.35); } 
-.particle-t1:nth-child(2) { animation-delay: 0.6s; margin-top: 15%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.65); } 
-.particle-t1:nth-child(3) { animation-delay: 5.4s; margin-top: 75%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.45); } 
-.particle-t1:nth-child(4) { animation-delay: 1.8s; margin-top: 35%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.70); } 
-.particle-t1:nth-child(5) { animation-delay: 4.2s; margin-top: 90%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.30); } 
-.particle-t1:nth-child(6) { animation-delay: 2.5s; margin-top: 45%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.55); } 
-.particle-t2:nth-child(7) { animation-delay: 0.9s; margin-top: 62%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.62); } 
-.particle-t2:nth-child(8) { animation-delay: 4.1s; margin-top: 28%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.33); } 
-.particle-t2:nth-child(9) { animation-delay: 2.3s; margin-top: 88%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.47); } 
-.particle-t2:nth-child(10) { animation-delay: 5.7s; margin-top: 12%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.68); } 
-.particle-t2:nth-child(11) { animation-delay: 0.2s; margin-top: 48%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.38); } 
-.particle-t2:nth-child(12) { animation-delay: 3.6s; margin-top: 71%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.52); } 
-.particle-t2:nth-child(13) { animation-delay: 1.5s; margin-top: 22%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.41); } 
-.particle-t2:nth-child(14) { animation-delay: 4.8s; margin-top: 94%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.66); } 
-.particle-t2:nth-child(15) { animation-delay: 2.9s; margin-top: 39%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.31); } 
-.particle-t2:nth-child(16) { animation-delay: 0.5s; margin-top: 81%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.57); } 
-.particle-t2:nth-child(17) { animation-delay: 5.2s; margin-top: 18%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.44); } 
-.particle-t2:nth-child(18) { animation-delay: 1.1s; margin-top: 53%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.60); } 
-.particle-t2:nth-child(19) { animation-delay: 3.3s; margin-top: 67%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.36); } 
-.particle-t2:nth-child(20) { animation-delay: 2.0s; margin-top: 31%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.54); } 
-.particle-t2:nth-child(21) { animation-delay: 4.4s; margin-top: 84%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.69); } 
-.particle-t2:nth-child(22) { animation-delay: 0.8s; margin-top: 41%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.32); } 
-.particle-t2:nth-child(23) { animation-delay: 3.8s; margin-top: 10%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.49); } 
-.particle-t2:nth-child(24) { animation-delay: 1.6s; margin-top: 76%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.64); } 
-.particle-t2:nth-child(25) { animation-delay: 5.0s; margin-top: 57%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.39); } 
-.particle-t2:nth-child(26) { animation-delay: 2.7s; margin-top: 24%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.41); }
-.particle-t1:nth-child(1) { animation-delay: 3.1s; margin-top: 55%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.35) !important; } 
-.particle-t1:nth-child(2) { animation-delay: 0.6s; margin-top: 15%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.65) !important; } 
-.particle-t1:nth-child(3) { animation-delay: 5.4s; margin-top: 75%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.45) !important; } 
-.particle-t1:nth-child(4) { animation-delay: 1.8s; margin-top: 35%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.70) !important; } 
-.particle-t1:nth-child(5) { animation-delay: 4.2s; margin-top: 90%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.30) !important; } 
-.particle-t1:nth-child(6) { animation-delay: 2.5s; margin-top: 45%; animation-duration: 9s; transform: scaleX(calc(100vw / 800)) scale(3.55) !important; } 
-.particle-t2:nth-child(7) { animation-delay: 0.9s; margin-top: 62%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.62) !important; } 
-.particle-t2:nth-child(8) { animation-delay: 4.1s; margin-top: 28%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.33) !important; } 
-.particle-t2:nth-child(9) { animation-delay: 2.3s; margin-top: 88%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.47) !important; } 
-.particle-t2:nth-child(10) { animation-delay: 5.7s; margin-top: 12%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.68) !important; } 
-.particle-t2:nth-child(11) { animation-delay: 0.2s; margin-top: 48%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.38) !important; } 
-.particle-t2:nth-child(12) { animation-delay: 3.6s; margin-top: 71%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.52) !important; } 
-.particle-t2:nth-child(13) { animation-delay: 1.5s; margin-top: 22%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.41) !important; } 
-.particle-t2:nth-child(14) { animation-delay: 4.8s; margin-top: 94%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.66) !important; } 
-.particle-t2:nth-child(15) { animation-delay: 2.9s; margin-top: 39%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.31) !important; } 
-.particle-t2:nth-child(16) { animation-delay: 0.5s; margin-top: 81%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.57) !important; } 
-.particle-t2:nth-child(17) { animation-delay: 5.2s; margin-top: 18%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.44) !important; } 
-.particle-t2:nth-child(18) { animation-delay: 1.1s; margin-top: 53%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.60) !important; } 
-.particle-t2:nth-child(19) { animation-delay: 3.3s; margin-top: 67%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.36) !important; } 
-.particle-t2:nth-child(20) { animation-delay: 2.0s; margin-top: 31%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.54) !important; } 
-.particle-t2:nth-child(21) { animation-delay: 4.4s; margin-top: 84%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.69) !important; } 
-.particle-t2:nth-child(22) { animation-delay: 0.8s; margin-top: 41%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.32) !important; } 
-.particle-t2:nth-child(23) { animation-delay: 3.8s; margin-top: 10%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.49) !important; } 
-.particle-t2:nth-child(24) { animation-delay: 1.6s; margin-top: 76%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.64) !important; } 
-.particle-t2:nth-child(25) { animation-delay: 5.0s; margin-top: 57%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.39) !important; } 
-.particle-t2:nth-child(26) { animation-delay: 2.7s; margin-top: 24%; animation-duration: 5s; transform: scaleX(calc(100vw / 800)) scale(3.41) !important; }
+.particle-t1:nth-child(1) { animation-delay: 3.1s; margin-top: 55%; animation-duration: 13s; transform: scaleX(calc(100vw / 800)) scale(3.35) !important; } 
+.particle-t1:nth-child(2) { animation-delay: 0.6s; margin-top: 15%; animation-duration: 13s; transform: scaleX(calc(100vw / 800)) scale(3.65) !important; } 
+.particle-t1:nth-child(3) { animation-delay: 5.4s; margin-top: 75%; animation-duration: 13s; transform: scaleX(calc(100vw / 800)) scale(3.45) !important; } 
+.particle-t1:nth-child(4) { animation-delay: 1.8s; margin-top: 35%; animation-duration: 13s; transform: scaleX(calc(100vw / 800)) scale(3.70) !important; } 
+.particle-t1:nth-child(5) { animation-delay: 4.2s; margin-top: 90%; animation-duration: 13s; transform: scaleX(calc(100vw / 800)) scale(3.30) !important; } 
+.particle-t1:nth-child(6) { animation-delay: 2.5s; margin-top: 45%; animation-duration: 13s; transform: scaleX(calc(100vw / 800)) scale(3.55) !important; } 
+.particle-t2:nth-child(7) { animation-delay: 0.9s; margin-top: 62%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.62) !important; } 
+.particle-t2:nth-child(8) { animation-delay: 4.1s; margin-top: 28%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.33) !important; } 
+.particle-t2:nth-child(9) { animation-delay: 2.3s; margin-top: 88%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.47) !important; } 
+.particle-t2:nth-child(10) { animation-delay: 5.7s; margin-top: 12%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.68) !important; } 
+.particle-t2:nth-child(11) { animation-delay: 0.2s; margin-top: 48%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.38) !important; } 
+.particle-t2:nth-child(12) { animation-delay: 3.6s; margin-top: 71%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.52) !important; } 
+.particle-t2:nth-child(13) { animation-delay: 1.5s; margin-top: 22%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.41) !important; } 
+.particle-t2:nth-child(14) { animation-delay: 4.8s; margin-top: 94%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.66) !important; } 
+.particle-t2:nth-child(15) { animation-delay: 2.9s; margin-top: 39%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.31) !important; } 
+.particle-t2:nth-child(16) { animation-delay: 0.5s; margin-top: 81%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.57) !important; } 
+.particle-t2:nth-child(17) { animation-delay: 5.2s; margin-top: 18%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.44) !important; } 
+.particle-t2:nth-child(18) { animation-delay: 1.1s; margin-top: 53%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.60) !important; } 
+.particle-t2:nth-child(19) { animation-delay: 3.3s; margin-top: 67%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.36) !important; } 
+.particle-t2:nth-child(20) { animation-delay: 2.0s; margin-top: 31%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.54) !important; } 
+.particle-t2:nth-child(21) { animation-delay: 4.4s; margin-top: 84%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.69) !important; } 
+.particle-t2:nth-child(22) { animation-delay: 0.8s; margin-top: 41%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.32) !important; } 
+.particle-t2:nth-child(23) { animation-delay: 3.8s; margin-top: 10%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.49) !important; } 
+.particle-t2:nth-child(24) { animation-delay: 1.6s; margin-top: 76%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.64) !important; } 
+.particle-t2:nth-child(25) { animation-delay: 5.0s; margin-top: 57%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.39) !important; } 
+.particle-t2:nth-child(26) { animation-delay: 2.7s; margin-top: 24%; animation-duration: 8s; transform: scaleX(calc(100vw / 800)) scale(3.41) !important; }
 
 .particle-t1 {
     transform: scale(2) !important
