@@ -139,7 +139,7 @@ div#lion_image:after {
 }
 .leftcontent {
     flex: 1;
-    background: #694129;
+    background: #5b3f2f;
     height: 250px;
     text-align: left;
     padding: 10px;
@@ -148,8 +148,8 @@ div#lion_image:after {
 }
 .rightcontent {
     flex: 1;
-    border: 12px solid #221817;
-    background: #221817;
+    border: 12px solid #3f2c20;
+    background: #5b3f2f;
     height: 250px;
     text-align: left;
     padding: 10px;
@@ -189,7 +189,7 @@ img[src*='prideoverviewbanner'] {
     object-fit: cover;
 }
 #fraCaveList .col-md-4:nth-child(2) img {
-    content: url('https://static.lioden.com/images/dynamic/backgrounds/AltarofRa.png');
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/gorgechampions.png');
     height: 250px;
     object-fit: cover;
 }
