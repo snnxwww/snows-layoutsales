@@ -143,13 +143,17 @@ div#lion_image:after {
     height: 250px;
     text-align: left;
     padding: 10px;
+    border-radius: 8px;
+    
 }
 .rightcontent {
     flex: 1;
     border: 12px solid #221817;
+    background: #221817;
     height: 250px;
     text-align: left;
     padding: 10px;
+    border-radius: 8px;
 }
 
 img[src*='unsortedlionsbanner'] {
