@@ -218,3 +218,6 @@ img[src*='prideoverviewbanner'] {
     content: url('https://static.lioden.com/images/items/Beetles/EVENTBEETLE_beetlebasicryptuscostalis.png');
     object-fit: cover;
 }
+#about a:has(img) {
+    transform: none;
+}
