@@ -60,8 +60,14 @@
     font-size: 0
 }
 
-.option:after {
-    content: '... hover me'
+.option.o1:after {
+    content: '... mossy clearing'
+}
+.option.o2:after {
+    content: '... hidden grove'
+}
+.option.o3:after {
+    content: '... behind the falls'
 }
 
 #about > tbody > tr > td {
@@ -120,7 +126,7 @@ img[src*='cavedefault'], img[src*='caveunused'] {
     object-fit: cover;
     height: 120px;
 }
-img[src*='mound'] {
+img[src*='mound'], img[src*='beetleunsorted'] {
     content: url('https://static.lioden.com/images/items/Other/beetleskin.png');
     object-fit: cover;
     height: 80px;
