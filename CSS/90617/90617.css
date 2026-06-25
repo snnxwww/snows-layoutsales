@@ -61,13 +61,13 @@
 }
 
 .option.o1:after {
-    content: '... mossy clearing'
+    content: 'mossy clearing'
 }
 .option.o2:after {
-    content: '... hidden grove'
+    content: 'hidden grove'
 }
 .option.o3:after {
-    content: '... behind the falls'
+    content: 'behind the falls'
 }
 
 #about > tbody > tr > td {
