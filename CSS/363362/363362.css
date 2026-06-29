@@ -1,1 +1,149 @@
+/* CSS Layout by Snow #553411
 
+- Credit removal is not permitted
+- These layouts may ONLY be used with codes made by #553411
+- Do not clip sections of code to use elsewhere, whether it is for a free, commissioned, or personal CSS
+- Failure to comply with my terms will result in a block
+
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+    font-family: 'raleway';
+}
+
+h1, h2, h3, h4, h5, h6, small:has(a[href*='territory']), small:has(a[href*='territory']) a {
+    font-family: 'niconne';
+    text-shadow: 0px 0px 2px #000;
+    color: #e6d8c4 !important;
+}
+h1 {
+    font-size: 50px;
+}
+small:has(a[href*='territory']), small:has(a[href*='territory']) a {
+    font-size: 40px;
+}
+.sidebar h3 {
+    font-size: 26px !important;
+}
+.sidebar a[href*='chat'] {
+    font-size: 10px !important;
+    color: #e6d8c4 !important;
+}
+
+body {
+    background: url('https://snnxwww.github.io/snows-layoutsales/CSS/363362/background.jpg') center fixed;
+    background-size: cover;
+}
+
+.topbar {
+    background: #ffffffa0;
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    color: #000;
+    border: 1px solid #000;
+    border-top: 0px;
+    box-shadow: 0px 0px 2px #000;
+}
+.topbar a {
+    color: #000 !important;
+}
+
+.navbar {
+    background: #c7b79f;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+}
+.navbar a {
+    background: none !important;
+    color: #ede1cf !important;
+    text-shadow: 0px 0px 2px #000, 0px 0px 5px #00000080;
+    transition: 0.4s;
+}
+.navbar a:hover {
+    background: #d3c6b1 !important;
+    border-radius: 18px;
+}
+
+.main {
+    background: #ffffffa0 !important;
+    border-radius: 18px;
+    border: 1px solid #000;
+    box-shadow: 0px 0px 2px #000;
+}
+.col-md-9 {
+    background: none !important;
+}
+
+.breadcrumb, .alert {
+    background: #dfd0b9;
+    color: #000 !important;
+    border: 1px solid #000;
+}
+.breadcrumb a, .breadcrumb-item, .breadcrumb-item:before, .alert a {
+    color: #000 !important;
+}
+
+
+table {
+    background: #ffffff80 !important;;
+}
+table .right_odd {
+    background: none !important;
+}
+table .top, table th, table .left.b, table .bottom, .badge, .featured-lion {
+    background: #c7b79f !important;
+    color: #000 !important;
+}
+table a, table th a, .featured-lion a {
+    color: #000 !important;
+}
+.badge {
+    color: #fff !important;
+}
+
+.panel {
+    background: #ffffff80 !important;
+    border-radius: 12px;
+    border: 1px solid #000 !important;
+    box-shadow: none !important
+}
+
+input, .button, select, textarea {
+    background: #ffffff80 !important;
+    text-shadow: none !important;
+    color: #000 !important;
+    border: 1px solid #000;
+}
+
+.navbar img {
+    filter: sepia(1) saturate(0.7) brightness(0.8)
+}
+
+.breadcrumb:after {
+    content: 'CSS by Snow #553411';
+    position: absolute;
+    right: 120px;
+}
+
+.trisectionedexpander-layout .contentsection {
+    display: flex;
+    gap: 20px;
+}
+.trisectionedexpander-layout .leftcontent, .trisectionedexpander-layout .centercontent, .trisectionedexpander-layout .rightcontent{ 
+    border: 1px solid #000 !important;
+    border-radius: 12px;
+    background: #c7b79f;
+    height: 400px;
+    text-align: left;
+    padding: 10px;
+    overflow: scroll;
+    flex: 1;
+    transition: 1.2s;
+}
+.trisectionedexpander-layout .leftcontent:hover, .trisectionedexpander-layout .centercontent:hover, .trisectionedexpander-layout .rightcontent:hover {
+    flex: 3;
+}
