@@ -1,0 +1,1 @@
+<div class="trisectionedexpander-layout"><div class="content"><div class="contentsection"><div class="leftcontent"><h1>header</h1>text</div><div class="centercontent"><h1>header</h1>text</div><div class="rightcontent"><h1>header</h1>text</div></div></div></div>
