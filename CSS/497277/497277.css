@@ -220,6 +220,7 @@ table a, .alert a, .breadcrumb a, .breadcrumb-item {
     background: #dc9d24;
     color: #3b2806;
     transition: 0.6s;
+	overflow: scroll;
 }
 
 .leftcontent:hover, .centercontent:hover, .rightcontent:hover {
