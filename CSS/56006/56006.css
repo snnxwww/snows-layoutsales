@@ -4,10 +4,13 @@
 - DO NOT CLIP CODE OR USE THIS AS A TEMPLATE
 */
 
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 * {
     border: none !important;
     box-shadow: none !important;
-    color: #a57a69 !important
+    color: #a57a69 !important;
+	font-family: 'pt serif'
 }
 
 body {
@@ -317,4 +320,5 @@ img[src*='prideoverview'] {
 table p, table .h3, #player a, #allies .right, .sidebar h3, table .right_odd .xsmall, b:has(span), #clans a {
 	filter: drop-shadow(0px 0px 12px #fff);
 	text-shadow: 1px 1px 1px #fff2cf80 !important;
+	color: #996e5b !important;
 }
