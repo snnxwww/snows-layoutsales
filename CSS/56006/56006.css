@@ -306,3 +306,9 @@ img[src*='prideoverview'] {
 	5% { transform: rotate(0deg); }
 	55% { transform: rotate(-1080deg); } 
 }
+
+.breadcrumb:after {
+	content: 'CSS by Snow #553411';
+	position: absolute;
+	right: 120px
+}
