@@ -312,3 +312,9 @@ img[src*='prideoverview'] {
 	position: absolute;
 	right: 120px
 }
+
+
+table p, table .h3, #player a, #allies .right, .sidebar h3, table .right_odd .xsmall, b:has(span), #clans a {
+	filter: drop-shadow(0px 0px 12px #fff);
+	text-shadow: 1px 1px 1px #fff2cf80 !important;
+}
