@@ -1,1 +1,308 @@
+/* CSS by Snow #553411, commisssioned by #56006
+- CREDIT REMOVAL IS NOT PERMITTED
+- DO NOT RESELL OR REDISTRIBUTE
+- DO NOT CLIP CODE OR USE THIS AS A TEMPLATE
+*/
 
+* {
+    border: none !important;
+    box-shadow: none !important;
+    color: #a57a69 !important
+}
+
+body {
+    background: url('https://static.lioden.com/images/dynamic/backgrounds/heavens.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.col-md-9, .main, table .right_odd  {
+    background: none !important;
+}
+
+h1 {
+    display: none;
+}
+
+.topbar {
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background: #fff2cf;
+}
+.badge {
+    background: #d9c286;
+}
+
+.navbar {
+    border-radius: 24px;
+    background: #fff2cf !important;
+}
+.navbar a {
+    transition: 0.4s;
+    border-radius: 6px;
+}
+.navbar a:not(:has(img)):hover {
+    background: none !important;
+    box-shadow: 0px 0px 4px #a57a69 !important
+}
+
+.breadcrumb, .alert, table .top, table .bottom, .cave-grid, .mound-grid, table th, .feature, .col-sm-4 div, .col-sm-6 div, .left:has(a[href*="account-settings"]), .panel, #commentBox {
+    background: #fff2cf !important;
+    border-radius: 16px;
+}
+.comment {
+    background: none !important;
+    box-shadow: 0px 0px 1px #a57a69 !important;
+}
+
+.interaction-box {
+    background: #fff2cf;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: left;
+}
+.interaction-box img {
+    width: 60%;
+    height: 240px;
+    object-fit: cover;
+    float: right;
+    margin: 10px;
+}
+.interaction-box a {
+    background: #e6c17b !important;
+    padding: 6px;
+    border-radius: 12px;
+    color: #6d4b3f !important
+}
+
+.scrollbox {
+    background: #fff2cf;
+    border-radius: 16px;
+    padding: 16px;
+    text-align: left;
+    height: 200px;
+    overflow: scroll;
+}
+
+input, select, .button, textarea, .progress-bar {
+    background: #e6c17b !important;
+    padding: 6px;
+    border-radius: 12px !important;
+    color: #6d4b3f !important;
+    text-shadow: none !important;
+    transition: 0.4s
+}
+
+a {
+    transition: 0.4s
+}
+
+input:hover, select:hover, .button:hover, textarea:hover, a[href*="cave"]:hover, a[href*="mound"]:hover {
+    filter: drop-shadow(0px 0px 1px #6d4b3f)
+}
+
+.progress {
+    background: #e6c17b40;
+    border-radius: 12px;
+}
+
+#chatMessagePinned {
+    background-color: #e6c17b !important;
+    border-top-left-radius: 12px !important;
+    border-top-right-radius: 12px !important;
+    color: #6d4b3f !important;
+}
+
+#editdetailspanel .left.b {
+    background: none;
+}
+
+.inner-table .left {
+    background-color: #f3e9cf !important;
+}
+.inner-table .right {
+    background-color: #fff6e0 !important;
+}
+
+.s-chat-message {
+    background: #fff2cf !important;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+.s-chat-message_timestamp {
+    padding: 4px !important;
+}
+
+td[style="height:5px; padding: 0;"] {
+    background: #fff2cf !important;
+}
+
+#label_currentChannel , #fraChatChannelMenu {
+    background: #fff2cf !important;
+    border-radius: 12px !important;
+}
+
+.channelSwitcher {
+    transition: 0.4s
+}
+.channelSwitcher:hover, .channelSwitcher.active {
+    background-color: #e6c17b !important;
+    border-radius: 12px !important;
+    color: #6d4b3f !important;
+}
+
+.member-online {
+    background: #fff2cf !important;
+}
+.member-offline {
+    background: #e6c17b !important;
+}
+
+img[src*='logo'] {
+    content: url('https://iili.io/CpymqAX.png');
+    object-fit: contain
+}
+
+img[src*='unsortedlions'] {
+    content: url('https://www.lioden.com/images/items/Other/ivorymarks.png');
+    height: 60px;
+    object-fit: contain; 
+    padding: 2px;
+}
+img[src*='nesting'] {
+    content: url('https://static.lioden.com/images/items/Other/etherealbody.png');
+    height: 60px;
+    object-fit: contain;
+    padding: 2px;
+}
+img[src*='prideoverview'] {
+    content: url('https://iili.io/CpyHEN9.png');
+    height: 60px;
+    object-fit: contain;
+    padding: 2px;
+}
+.scrollbox:after {
+    content: '';
+    height: 160px;
+    width: 200px;
+    background: url('https://iili.io/Cpyhk6N.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -50px;
+}
+#commentBox:before {
+    content: '';
+    height: 160px;
+    width: 200px;
+    background: url('https://iili.io/CpylOCX.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: -100px;
+    margin-top: 170px;
+}
+
+#fraCaveList .col-md-4 img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/denofsalvation.png');
+    height: 100px;
+    object-fit: cover
+}
+#fraCaveList .col-md-4:nth-child(2) img, #fraCaveList .col-md-4:nth-child(5) img, #fraCaveList .col-md-4:nth-child(8) img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/febpond.png');
+    height: 100px;
+    object-fit: cover
+}
+#fraCaveList .col-md-4:nth-child(3) img, #fraCaveList .col-md-4:nth-child(6) img, #fraCaveList .col-md-4:nth-child(9) img {
+    content: url('https://static.lioden.com/images/dynamic/backgrounds/Loneliness.png');
+    height: 100px;
+    object-fit: cover
+}
+
+
+
+
+.feather-container {
+	position: fixed; 
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 99999 !important;
+	pointer-events: none;
+}
+
+.feather1 {
+	position: absolute !important;
+	height: 100px;
+	width: 100px;
+	background: url('https://static.lioden.com/images/items/Amusement/littleegretfeather.png');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	top: 0;
+	offset-path: path("M -20 150 Q 150 50 340 250 C 400 600 500 0 300 150 Q 10 450 2200 250");
+	offset-rotate: auto 90deg; 
+	animation-delay: 2s;
+	animation: move-on-path 17s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, wind-drift 17s linear infinite;
+	z-index: 99999 !important;
+}
+.feather2 {
+	position: absolute !important;
+	height: 100px;
+	width: 100px;
+	background: url('https://static.lioden.com/images/items/Amusement/featheralbino.png');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	top: 0;
+	offset-path: path("M -100 200 C 250 -50 600 500 2100 300");
+	offset-rotate: auto 90deg; 
+	animation-delay: 1s;
+	animation: move-on-path 15s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, leaf-spin 15s linear infinite;
+	z-index: 99999 !important;
+}
+.feather3 {
+	position: absolute !important;
+	height: 100px;
+	width: 100px;
+	background: url('https://static.lioden.com/images/items/Amusement/featheralbino.png');
+	background-size: 90%;
+	background-repeat: no-repeat;
+	top: 0;
+	offset-path: path("M -100 200 C 300 -50 650 600 2000 300");
+	offset-rotate: auto 90deg; 
+	animation: move-on-path 18s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, leaf-spin 18s linear infinite;
+	z-index: 99999 !important;
+}
+.feather4 {
+	position: absolute !important;
+	height: 100px;
+	width: 100px;
+	background: url('https://static.lioden.com/images/items/Amusement/littleegretfeather.png');
+	background-size: 60%;
+	background-repeat: no-repeat;
+	top: 0;
+	offset-path: path("M -50 250 Q 150 50 300 250 C 500 650 400 0 350 150 Q 10 450 2000 300");
+	offset-rotate: auto 90deg; 
+	animation: move-on-path 20s cubic-bezier(0.45, 0, 0.55, 1) infinite forwards, wind-drift 20s linear infinite;
+	z-index: 99999 !important;
+}
+
+
+@keyframes move-on-path {
+  0% { offset-distance: 0%; opacity: 0; }
+  5% { opacity: 1; } 
+  50% { opacity: 1; }
+  55% { offset-distance: 100%; opacity: 0; }
+  100% { offset-distance: 100%; opacity: 0; } 
+}
+
+@keyframes wind-drift {
+	0% { transform: rotate(0deg); }
+	30% { transform: rotate(0deg); }
+	55% { transform: rotate(-1080deg); } 
+}
+@keyframes leaf-spin {
+	0% { transform: rotate(0deg); }
+	5% { transform: rotate(0deg); }
+	55% { transform: rotate(-1080deg); } 
+}
