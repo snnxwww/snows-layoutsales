@@ -1,1 +1,146 @@
 
+
+body {
+    background: url('https://images.pexels.com/photos/39302202/pexels-photo-39302202.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+img[src*='unsortedlionsbanner'] {
+    content: url('https://images.unsplash.com/photo-1723750600969-9741e0c9495a?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 80px;
+    object-fit: cover;
+}
+img[src*='nestingbanner'] {
+    content: url('https://images.pexels.com/photos/19056499/pexels-photo-19056499.jpeg');
+    height: 80px;
+    object-fit: cover;
+}
+img[src*='prideoverviewbanner'] {
+    content: url('https://images.unsplash.com/photo-1723750600575-bf647ab76339?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dhttps://images.unsplash.com/photo-1723750600575-bf647ab76339?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    height: 80px;
+    object-fit: cover;
+}
+
+img[src*='cave'] {
+    content: url('https://images.pexels.com/photos/14795404/pexels-photo-14795404.jpeg');
+    height: 120px;
+    object-fit: cover;
+}
+
+
+.scrollbox {
+    height: 300px;
+    overflow: scroll;
+    padding: 10px;
+    margin-bottom: 15px
+}
+.boxsection {
+    display: flex;
+    gap: 15px;
+}
+.contentleft {
+    height: 200px;
+    overflow: scroll;
+    padding: 10px;
+    flex: 1
+}
+.contentright {
+    height: 200px;
+    overflow: scroll;
+    padding: 10px;
+    flex: 1
+}
+
+
+.pagedoll {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    max-width: 50%;
+    z-index: 999;
+}
+
+* {
+    color: #fff !important;
+}
+
+.topbar {
+    background: #bc824b90;
+    border: 1px solid #ffffff60;
+    border-top: none
+}
+.navbar {
+    background: #bc824b90;
+    border: 1px solid #ffffff60 !important;
+}
+.breadcrumb, .alert, table .top, table th, .scrollbox, .contentleft, .contentright, table .bottom, .cave-grid, .mound-grid, .panel, #chatMessagePinned, #label_currentChannel, #fraChatChannelMenu, .s-chat-message.hasContext {
+    background-color: #bc824b90 !important;
+    border: 1px solid #cba58080 !important;
+} 
+
+.channelSwitcher:hover, .channelSwitcher.active {
+    background: #5a3a33d5 !important;
+}
+
+.feature, table .right_odd, table .left.b, .col-sm-4 div, .col-sm-6 div, .left:has(a[href*="account-settings"]), .s-chat-message, .inner-table .left, .inner-table .right, .featured-lion {
+    background: #bc824b40 !important;
+    border: 1px solid #cba58060 !important;
+}
+
+.inner-table {
+    border: none !important;
+}
+.inner-table .right {
+    border-left: none !important;
+}
+
+table {
+    border: 1px solid #cba58080 !important;
+}
+.panel {
+    box-shadow: none !important;
+}
+
+.navbar a:hover {
+    background: #bc824b90 !important;
+}
+
+.col-md-9 {
+    background: none;
+}
+
+.main {
+    background: #2f190d90;
+    border: 1px solid #ffffff60;
+}
+
+.navbar img {
+    filter: brightness(0.6) saturate(0.2) sepia(1) hue-rotate(-20deg)
+}
+
+.left[colspan="100%"] {
+    background: #bc824b50;
+}
+
+input, .button, textarea, select, .progress-bar {
+    background: #39282090 !important;
+    border: 1px solid #ffffff60 !important;
+    text-shadow: none !important;
+}
+.progress {
+    background: #39282060 !important;
+    border: 1px solid #ffffff60 !important;
+}
+.progress-bar {
+    border: none !important
+}
+
+.s-chat-message, .s-chat-message_timestamp {
+    padding-left: 6px !important;
+}
+
+.chatMenu-container button {
+    color: #000 !important;
+}
