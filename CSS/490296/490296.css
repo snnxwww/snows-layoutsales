@@ -86,6 +86,11 @@ img[src*='beetlemound'], img[src*='unsortedbeetles'] {
     border: 1px solid #cba58080 !important;
 } 
 
+.breadcrumb:after {
+    content: 'CSS by Snow #553411';
+    position: absolute;
+    right: 125px;
+}
 .channelSwitcher:hover, .channelSwitcher.active {
     background: #5a3a33d5 !important;
 }
