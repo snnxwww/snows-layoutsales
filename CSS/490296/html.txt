@@ -1,0 +1,5 @@
+<link rel="stylesheet" href="https://snnxwww.github.io/snows-layoutsales/CSS/490296/490296.css" />
+
+<div class="scrollbox">TOP</div><div class="boxsection"><div class="contentleft">LEFT</div><div class="contentright">RIGHT</div></div>
+
+<img class="pagedoll" src="https://snnxwww.github.io/snows-layoutsales/CSS/490296/IMG-0099.png" alt="" />
