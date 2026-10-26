@@ -1,0 +1,9 @@
+.pagedoll  {
+    position: fixed;
+    bottom: 0;
+    right:  0;
+    z-index: 99;
+    width: 400px;
+    max-width: 50% !important;
+    pointer-events: none;
+}
